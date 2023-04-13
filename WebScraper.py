@@ -15,6 +15,7 @@ def Scraper(url_):
         pagsig.append(base_url + link['href'])
 
     Tabla_Nutricional_Productos = pd.DataFrame()
+    
     for i in range(0,(len(pagsig))):
         url = pagsig[i]
         page = requests.get(url).text
@@ -25,12 +26,16 @@ def Scraper(url_):
         Producto = []
         for caracter in Productos:
             Producto.append(caracter.text)
-        # Encontrar los nombres de Marcas
         Marcas = tabla.find_all("a",class_="brand")
         Marca = []
         for caracter in Marcas:
             marca_texto = caracter.text.replace("(", "").replace(")", "")
             Marca.append(marca_texto)
+
+        # Chequear si hay tantas marcas como productos
+        if len(Marca) < len(Producto):
+            # None en cada espacio de "Marca" que no tenca marca
+            Marca += [None] * (len(Producto) - len(Marca))
         # Encontrar las cantidades
         Cantidades = tabla.find_all("div",class_="smallText greyText greyLink")
         Cantidad = []
