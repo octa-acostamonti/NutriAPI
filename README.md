@@ -18,7 +18,7 @@ print(data.head())
 ```
 The output should be a Pandas DataFrame with the nutritional information of the food products found in the search results.
 
-"As of now, it only works with the page 'FatSecret.com.ar.' This is because my objective is to create a complete DataFrame filled with all the products and their corresponding nutritional facts, and then analyze the best products in terms of price, protein, and carbohydrates."
+As of now, it only works with the page 'FatSecret.com.ar.' This is because my objective is to create a complete DataFrame filled with all the products and their corresponding nutritional facts, and then analyze the best products in terms of price, protein, and carbohydrates.
 
 
 I am constantly working on this project. My idea is to make a full Data Engineer, Data Analytic, Data Science and Machine Learning Project. This will take a long time so I will keep you updated everytime I make progress. : )
