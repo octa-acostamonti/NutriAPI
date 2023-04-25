@@ -22,3 +22,7 @@ As of now, it only works with the page 'FatSecret.com.ar.' This is because my ob
 
 
 I am constantly working on this project. My idea is to make a full Data Engineer, Data Analytic, Data Science and Machine Learning Project. This will take a long time so I will keep you updated everytime I make progress. : )
+
+
+
+OBJETIVE: 5000+ ARGENTINE PRODUCTS
