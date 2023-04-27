@@ -1,0 +1,619 @@
+,Producto,Marca,Cantidad,Calorias (kcal),Grasa (g),Carbohidrato (g),Proteina (g)
+0,Filetes de Atún en Aceite de Oliva con Ajo,Gomes da Costa,por 3 cucharadas soperas (60g) ,124,6.1,0.0,17.0
+1,Caballa en Aceite,Caracas ,por 1/4 taza de té (55g) ,125,10.0,0.0,8.3
+2,Merluza en Aceite,Puglisi,por 3 cucharadas soperas) (60g) ,99,5.0,0.0,14.0
+3,Aceite de Oliva Virgen Extra,La Toscana,por 1 cuchara sopera (13ml) ,108,12.0,0.0,0.0
+4,Aderezo Italiano (Hecho con Aceite y Vinagre),Pennisi,por 1 cucharada ,43,4.17,1.53,0.06
+5,Caballa en Aceite,Menoyo,por 3 cucharadas soperas (60g) ,156,11.0,0.0,14.0
+6,Aceite de Oliva Extra Virgen,La Campagnola,por 1 cucharada (13ml) ,108,12.0,0.0,0.0
+7,Atún en Aceite,Cocinero,por 3 cucharadas de sopa (60g) ,106,4.0,2.5,14.0
+8,Aceite de Oliva Extra Virgen,Pennisi,por 1 cuchara sopera (13ml) ,108,12.0,0.0,0.0
+9,Sardinas en Aceite,,por 3 cucharadas soperas (60g) ,132,9.1,0.0,12.0
+10,Ravioles de Queso,Orali,por 1 taza ,285,10.72,32.35,13.58
+11,Tapa para Pascualina,Don Vicente,por 1 rebanada (31g) ,106,4.0,15.0,2.1
+12,Fideos Tirabuzón,Matarazzo,por 1 plato (80g) ,277,2.3,54.0,10.0
+13,Macarrones Tomate,Mamá Cocina,por 100 g ,116,1.65,21.06,3.87
+14,Macarrones con Queso Plato Principal (Enlatados),Matarazzo,por 1 porción ,200,6.0,28.11,8.25
+15,Pasta Integral Cruda,Cooperativa,por 100 g ,338,2.0,66.3,12.94
+16,Mostachol 3 Vegetales ,,por 1 plato (80g) ,262,0.8,55.0,8.8
+17,Ñoquis de Espinaca,,por 1/2 taza (40g) ,139,1.2,28.0,4.1
+18,Fideos Integrales,,por 1 plato (80g) ,275,1.3,57.0,9.0
+19,Capellettis,,por 100g ,253,1.8,49.0,10.0
+20,Mi Arroz Parboil,Cuisine & Co,por 1/4 taza (50g) ,162,0.0,36.0,3.4
+21,Arroz Español,Molto,por 1 taza ,211,3.64,40.68,4.67
+22,Nasi Goreng,Gallo,por 1 taza ,346,12.25,44.95,12.93
+23,Arroz Largo Fino,Lucchetti,por 1/4 taza de té (50g) ,179,0.0,40.0,3.8
+24,Chocobar de Arroz,Jumbo,por 1 barra (20g) ,89,4.9,12.0,1.8
+25,Arroz Inflado,Risky Dit,por 100 g ,383,0.9,87.77,7.0
+26,Arroz Largo Fino,,por 1/4 taza (50g) ,170,0.0,39.0,3.4
+27,"Arroz Blanco (de Grano Medio, Cocido)",,por 1 taza ,242,0.39,53.18,4.43
+28,Galletas de Arroz,,por 3 galletas (30g) ,110,0.5,24.0,2.3
+29,Tostadas de Arroz,,por 4 tostadas (30g) ,104,0.5,23.0,1.9
+30,Molino Natural - 10 Semillas,Okebon,por 2 galletitas (27g) ,123,5.0,17.0,2.0
+31,Semillas de Girasol,Genser,por 100g ,593,51.0,12.0,20.0
+32,Semillas de Girasol,Pipas,por 1 paquete (15g) ,90,7.9,1.0,3.8
+33,Pan Lacteado con Semillas,Veneziana,por 2 rebanadas (50g) ,131,3.5,20.0,4.9
+34,Semillas de Girasol Peladas,Pipas,por 1 porción (15g) ,90,7.9,1.0,3.8
+35,Pan Negro con Semillas de Lino,Carrefour,por 2 rebanadas (50g) ,105,1.0,20.0,3.8
+36,Galletitas Multicereal con Semillas,Carrefour,por 4 galletitas (30g) ,127,4.6,18.0,3.5
+37,Semillas de Quinoa,Yin Yang,por 1/4 taza (45g) ,163,2.9,27.0,7.2
+38,Bizcochitos Integrales con Semillas de Girasol,Granix,por 9 galletitas (30g) ,145,7.5,16.0,3.3
+39,Semillas de Chía,Genser,por 1 cucharada sopera (15g) ,61,4.9,0.6,3.5
+40,Harina Integral de Trigo Sarraceno,Semillas Gauchas,por 1/4 taza (50g) ,167,1.5,35.0,6.7
+41,Rebozador de Arroz,Natuzen,por 3 cucharadas soperas (30g) ,111,0.8,23.0,2.2
+42,Harina de Sustitución de las Proteínas en Polvo,Sturla,por 1 cucharada ,107,0.13,20.96,5.81
+43,Harina de Quinoa,Dia,por 1/2 taza (50g) ,170,3.7,27.0,7.0
+44,Galletas Scons,,por 3 galletas (30g) ,172,7.1,26.0,2.2
+45,Arepa de Choclo,,por 1 unidad ,195,3.35,33.81,6.52
+46,Arepa con Queso,,por 1 unidad ,212,4.97,33.75,7.39
+47,Pan de Harina de Avena,,por 1 tajada ,73,1.19,13.1,2.27
+48,Harina de Trigo Blanco (Multi Usos),,por 100 g ,364,0.98,76.31,10.33
+49,Harina de Soja,,por 100 g ,434,20.65,31.93,37.8
+50,Maní Salado sin Piel,Croppers,por 100g ,601,49.0,15.0,25.0
+51,Barritas de Arroz Saladas,Crowie,por 8 unidades (30g) ,111,0.8,25.0,1.0
+52,Galletitas Saladas Sabor Queso,Urquiza,por 7 galletitas (30g) ,116,4.0,17.0,3.0
+53,Galletitas Saladas Sabor Cebolla,Urquiza,por 1 porción (30g) ,109,2.8,18.0,2.9
+54,Molino Natural Naranja y Chips de Chocolate ,Okebon,por 2 galletas (26g) ,120,4.7,18.0,1.9
+55,Aritos de Avena y Miel,3 Arroyos,por 100g ,380,3.4,82.0,5.2
+56,Cookie Bar Avena y Miel,Bimbo,por 1 barrita (20g) ,90,3.4,13.0,1.8
+57,Harina de Algarroba ,Yin Yang,por 1/2 taza (50g) ,160,0.7,37.0,1.1
+58,Avena Arrollada Instantánea,Elio,por 1 porción (30g) ,117,1.6,20.0,5.7
+59,Barra Girasol y Arándanos,Integra,por 1 porción (43g) ,145,5.0,18.0,7.0
+60,Galletas de Avena con Manzana,Quaker,por 3 galletas (30g) ,115,4.6,16.0,2.0
+61,Avena Instantánea,Cuisine & Co,por 2 cucharadas (30g) ,103,2.5,16.0,4.0
+62,Avena Extrafina ,Granix,por 1/2 taza (40g) ,141,2.8,24.0,5.0
+63,Avena Tradicional,3 Arroyos,por 100g ,365,8.6,60.0,12.0
+64,Tarta de Atún,My Urban Food,por 1 envase (250g) ,378,18.0,27.0,28.0
+65,Atún en Trozos al Natural con Caldo Vegetal,Gomes da Costa,por 3 cucharadas soperas (60g) ,54,0.7,0.0,12.0
+66,Makis de Atún,Dia,por 1 maki ,26,0.07,4.92,1.17
+67,Atún Desmenuzado al Natural,Gomes da Costa,por 3 cucharadas de sopa (60g) ,41,0.6,0.0,8.9
+68,Atún en Trozos en Aceite con Caldo Vegetal,Puglisi,por 3 cucharas soperas (60g) ,92,3.8,0.0,15.0
+69,Atún al Natural,La Anónima,por 3 cucharadas de sopa (60g) ,76,2.0,0.0,15.0
+70,Lomitos de Atún al Natural,Noel,por 3 cucharas de sopa (60g) ,60,0.5,0.0,15.0
+71,Atún Desmenuzado al Natural,Carrefour,por 3 cucharadas (60g) ,46,0.7,2.4,7.4
+72,Ensalada de Macarrones u Otra Pasta con Atún,,por 1 taza ,335,16.18,34.5,12.51
+73,Atún Desmenuzado en Aceite y Agua,,por 3 cucharas de sopa (60g) ,100,5.0,0.0,13.0
+74,Caballa en Aceite y Agua,La Campagnola,por 3 cucharadas de sopa (60g) ,172,14.0,0.0,12.0
+75,Aceto Balsámico Tipo Reducción,Casalta,por 1 cuchara de sopa (10ml) ,27,0.0,6.5,0.0
+76,Aceto Balsámico,Casalta,por 1 cuchara de sopa (10ml) ,11,0.0,2.5,0.0
+77,Pan con Salvado,La Cabaña,por 2 rebanadas (48g) ,126,1.6,23.0,4.8
+78,Crema de Leche,La Cabaña,por 1 porción (15ml) ,60,6.4,0.3,0.3
+79,Jamon Cocido,Cabaña Argentina,por 2 fetas (40g) ,41,1.2,1.7,5.8
+80,Dulce de Frambuesa,Cabaña Mico,por 1 cucharada sopera (20g) ,58,0.0,14.2,0.0
+81,Manteca,La Cabaña,por 1 cucharada sopera (10g) ,74,8.2,0.0,0.0
+82,Fiambre de Cerdo Cocido,Cabaña Argentina,por 2 fetas (40g) ,47,2.2,2.2,4.5
+83,Dulce de Mosqueta,Cabaña Mico,por 1 cucharada  (20g) ,55,0.0,13.7,0.0
+84,Gelatina de Pata,Paty,por 1 porción ,60,0.1,13.36,1.4
+85,Arroz con Pato,Paty,por 1 plato ,421,10.51,60.07,18.69
+86,Pata de Res,Paty,por 100 g ,152,5.75,0.0,23.42
+87,Pato Asado‎ (sin Comer la Piel),Swift,por 100 g ,200,11.15,0.0,23.38
+88,Paty 72,Swift,por 1 hamburguesa (72g) ,181,14.0,0.0,13.0
+89,Paty Express,Bocatti,por 1 medallón (69g) ,199,17.0,0.0,12.0
+90,Paty con Cebolla,,por 100g ,251,18.0,4.7,17.0
+91,Pate Jamon Ahumado,,por 1 cucharada de té (10g) ,27,2.6,0.0,0.8
+92,Pate de Foie,,por 1 cucharada de te (10g) ,22,2.0,0.0,1.0
+93,Pate al Champignon,,por 1 cuchara de té (10g) ,33,3.1,0.0,1.3
+94,Tomates Peritas ,Arcor,por 1/2 taza de té (130g) ,23,0.0,4.5,0.9
+95,Salchicha o Perro Caliente con Salsa de Tomate y / o Mostaza,,por 1 salchicha en pan ,284,16.59,22.85,10.24
+96,Salsa de Soya Reducida de Sodio,Vanoli,por 1 cucharada ,8,0.01,1.36,0.83
+97,Salsa Fileto Light,Knorr,por 1 cucharada de sopa (60g) ,13,0.0,2.5,0.6
+98,Salsa Lista Bolognesa,Aguila,por 3 cucharadas de sopa (60g) ,20,0.0,3.8,1.1
+99,Nut Sabor Avellana,Knorr,por 100g ,535,33.0,52.0,8.0
+100,Mostacholes con Salsa Napolitana,Molto,por 1 plato hondo (73g) ,251,1.7,51.0,7.6
+101,"Pollo o Pavo y Verduras en Salsa de Soja (Incluyendo Zanahorias y Brócoli, sin Papas)",Knorr,por 1 taza ,180,8.59,9.28,15.86
+102,Salsa Pizza,Benidorm,por 1 porción  (60g) ,26,0.0,5.2,0.0
+103,Salsa Lista Pizza,,por 3 cucharadas de sopa (60g) ,16,0.0,3.4,0.6
+104,Salsa de Soja (Tamari),,por 1 cucharada ,11,0.02,1.0,1.89
+105,Salsa Golf,,por 1 cucharada (12g) ,34,3.2,1.2,0.0
+106,Milanesas de Choclo,San Silvestre,por 1 milanesa (80g) ,153,0.0,34.0,4.3
+107,Granos de Choclo Amarillo Enteros,Caracas ,por 1 porción (130g) ,107,1.6,19.0,3.8
+108,Choclo,Best,por 1 taza de te  (130g) ,52,0.0,11.0,2.1
+109,Choclo Amarillo Entero,Noel,por 1/2 taza de té (130g) ,77,3.3,11.0,3.3
+110,Choclo en Granos,Bahia,por 1 taza de té (130g) ,106,1.6,19.0,3.8
+111,Sopa Quick Crema Choclo a la Manteca,Knorr,por 1 sobre (15g) ,57,1.6,9.8,0.8
+112,Choclo Amarillo,Ciudad del Lago,por 100g ,54,1.0,8.2,3.1
+113,Choclo,Canale,por 1/2 taza de té (130g) ,96,1.6,17.0,2.9
+114,Choclo,Green Life,por 1/2 plato (130g) ,106,1.6,18.0,4.9
+115,Choclo Blanco Tipo Cremoso,Ciudad del Lago,por 1 porción (116g) ,80,0.0,18.0,2.0
+116,Arvejas Partidas,Olinto,por 1/2 taza (50g) ,156,0.0,28.0,11.0
+117,Arvejas Secas Remojadas,La Colina,por 1/2 taza de té (130g) ,103,0.0,18.0,6.0
+118,Arvejas,Cooperativa,por 1 taza de te (103g) ,100,1.1,16.0,6.4
+119,Milanesas de Arvejas,Via Veg,por 1 unidad (110g) ,207,2.0,39.0,8.2
+120,Torrejas de Arvejas con Espinaca,Molé,por 1/4 paquete (50g) ,141,1.8,26.0,5.0
+121,Arvejas ,La Banda,por 1 taza de té (130g) ,129,0.6,23.0,7.8
+122,Arvejas,Great Value,por 1 taza de té (130g) ,122,0.0,21.0,9.5
+123,Arvejas sin Sal,Cooperativa,por 1/2 lata (130g) ,64,0.0,12.0,4.0
+124,Arvejas,Carrefour,por 1 porción (130g) ,142,0.7,25.0,8.7
+125,Fusilli de Arveja,Makarona,por 1 plato (80g) ,256,0.0,46.0,18.0
+126,Veggies Lentejas y Arroz Yamaní,Granja del Sol,por 1 hamburguesa (105g) ,182,0.9,35.0,9.0
+127,Lentejas,Morixe,por 1/2 taza (60g) ,170,0.6,28.0,13.0
+128,Lentejas,Marolio,por 1/2 taza de té (60g) ,210,0.7,36.0,15.0
+129,Lentejas,Mister Food,por 1/2 taza (60g) ,142,0.7,18.0,16.0
+130,Lentejas con Arroz,Ciudad del Lago,por 1 plato ,445,16.47,60.48,14.49
+131,Lentejas Secas Remojadas,Primer Precio,por 1 taza de té (130g) ,102,0.0,18.0,7.5
+132,Lentejas,Primer Precio,por 1 porción (130g) ,103,0.0,18.0,7.5
+133,Lentejas Secas ,Verizzia,por 1 taza de té (60g) ,194,0.0,32.0,16.0
+134,Lentejas,Arcor,por 1 porción (60g) ,173,0.6,28.0,14.0
+135,Lentejas,,por 100g ,85,0.0,13.0,7.8
+136,Porotos,Doña Pupa,por 1 taza (130g) ,129,1.0,19.0,11.0
+137,Porotos,Jumbo,por 1/2 taza de té (60g) ,152,0.6,22.0,14.0
+138,Porotos con Riendas,Wakas,por 1 taza ,434,13.21,61.11,20.05
+139,Pasta de Legumbres Poroto,Alco,por 100g ,379,4.0,62.0,24.0
+140,Porotos,Elio,por 1/2 taza (130g) ,109,0.0,21.0,5.0
+141,Porotos Alubia,COTO,por 1/2 taza (60g) ,157,0.5,44.0,14.0
+142,Porotos Negros,La Egipciana,por 1/4 taza de té (60g) ,209,1.0,35.0,15.0
+143,Porotos Colorados,Carrefour,por 1 porción (60g) ,210,0.9,34.0,16.0
+144,Porotos Alubia ,Sytari,por 1/2 taza de té (60g) ,152,0.6,22.0,14.0
+145,Porotos Bolita,,por 1 taza de té (60g) ,152,1.0,24.0,12.0
+146,Harina de Garbanzo,Makarona,por 100 g ,387,6.69,57.82,22.39
+147,Fideos de Garbanzo,Nutrileza,por 1 plato (80g) ,279,6.0,32.0,24.0
+148,"Hamburguesa Orégano, Garbanzo y Mostaza ",La Egipciana,por 1 unidad  (90g) ,88,0.0,18.0,4.0
+149,Arvejas Partidas,Ramoneda,por 1/2 taza (60g) ,205,0.6,37.0,13.0
+150,Garbanzos,Alco,por 1/2 taza (60g) ,215,3.0,36.0,12.0
+151,Garbanzos,Makarona,por 1 porción (130g) ,155,2.6,25.0,7.8
+152,Fusilli De Garbanzo,Carrefour,por 1 plato (80g) ,274,6.0,43.0,13.0
+153,Porotos Secos Remojados,Doña Pupa,por 1/2 taza de té (130g) ,106,0.0,19.0,8.0
+154,Jardinera,Okey,por 1 taza de producto escurrido (130g) ,98,0.0,20.0,4.6
+155,Garbanzos,,por 1 porción (130g) ,146,2.7,22.0,8.5
+156,Arvejas,La Campagnola,por 100g ,110,0.5,20.0,6.3
+157,Porotos con Mazamorra,Carrefour,por 100 g ,107,3.16,16.95,4.67
+158,Fabada,San Remo,por 100 g ,162,8.84,14.94,6.37
+159,Vainicas,Egran,por 100 g ,31,0.12,7.13,1.82
+160,Chifrijo,,por 1 taza ,361,9.02,50.18,19.26
+161,Soja Texturizada,,por 100 g ,330,1.22,38.37,47.01
+162,Arroz con Habichuela,,por 100 g ,140,5.1,20.9,2.53
+163,Garbanzos Secos Remojados,,por 1 taza de té (130g) ,115,2.3,17.0,6.6
+164,Porotos,,por 1/2 taza de té (130g) ,115,1.0,19.0,11.0
+165,Porotos Bolita,,por 1/2 taza de té (60g) ,155,1.0,24.0,12.0
+166,Cazuela de Atún con Verduras y Crema de Champiñones,Knorr,por 1 taza ,381,19.13,22.02,29.25
+167,Caldo de Pescado,Knorr,por 1 taza ,39,1.46,0.98,4.88
+168,Sopa de Tomate (Preparada con Agua),,por 1 taza ,76,0.71,16.84,2.03
+169,Porotos con Tallarines,,por 1 taza ,256,7.85,38.22,9.62
+170,Quick Consome con Cubitos de Pan Tostado,,por 1 sobre (11g) ,42,1.7,6.0,0.8
+171,Sopa Wantán,,por 1 taza ,181,7.06,14.24,14.17
+172,Menudo,,por 1 taza ,104,4.63,9.37,6.36
+173,"Gumbo (Tipo New Orleans con Mariscos, Carne de Cerdo y / o Aves de Corral, Tomates y Quimbombó)",,por 1 taza ,178,8.39,11.1,14.57
+174,Caldo de Verduras Light sin Calorias,,por 1 sobre (3g) ,0,0.0,0.0,0.0
+175,Sopa de Miso,,por 1 taza ,84,3.36,7.78,6.02
+176,Relleno Mezcla para Chocotorta,La Serenísima,por 1 cuchara de sopa (20g) ,45,1.4,7.2,0.9
+177,Alfajor Relleno Sabor Frutilla,Alfa Pampa,por 1 unidad (39g) ,196,9.8,25.0,1.8
+178,Bombón de Chocolate Relleno,Benot,por 1 bombón  (17g) ,31,1.0,10.0,0.0
+179,Relleno para Chocotorta,La Serenísima,por 1 porción (20g) ,45,1.4,7.2,0.9
+180,Relleno de Vegetales para Tarta,Maglia,por 100g ,54,0.3,10.0,2.7
+181,Obleas Rellenas Sabor Limón ,Oblita,por 1 porción (30g) ,150,8.0,20.0,1.5
+182,Obleas Rellenas Sabor Chocolate,Dia,por 4 1/2 obleas (30g) ,144,6.5,20.0,1.9
+183,Pudding Relleno con Marroc,100 Ducados ,por 100g ,368,17.0,50.0,4.8
+184,Magdalenas Rellenas con Chocolate,Pozo,por 1 unidad (32g) ,132,6.0,21.0,1.0
+185,Galletitas Rellenas de Chocolate,Maná,por 2 galletitas (25g) ,115,4.0,18.0,1.8
+186,Palmeritas,,por 1 unidad ,120,6.85,13.47,1.32
+187,Torta Tres Leches,,por 1 tajada ,375,11.73,60.9,7.8
+188,Suspiro Limeño,,por 1 porción ,229,7.31,33.59,6.39
+189,Algodón de Azúcar,,por 1 barra ,110,0.06,27.44,0.0
+190,Cupcake,,por 1 pieza ,227,10.93,29.77,3.03
+191,Gofre,,por 1 unidad ,218,10.54,24.79,5.92
+192,Queque,,por 1 porción ,151,7.29,19.85,2.02
+193,Bavarois,,por 1 porción ,145,9.71,13.31,1.58
+194,Mochi,,por 1 unidad ,188,0.13,45.47,1.56
+195,Gachas,,por 1 porción ,437,12.71,75.61,6.08
+196,Alfajor Dulce de Leche,Chammas,por 1 unidad (40g) ,153,7.1,21.2,1.0
+197,Dulce de Leche Dietético,Los Nietitos,por 1 cucharada sopera (20g) ,30,0.0,4.7,1.6
+198,Dulce de Leche,La Suipachense,por 1 cucharada sopera (20g) ,64,2.3,9.0,1.4
+199,Dulce de Leche,Singluko,por 1 cucharada sopera (20g) ,32,0.5,5.8,1.0
+200,Conito de Dulce de Leche,Jorgito,por 1 porción (34g) ,122,4.2,19.0,2.0
+201,Dulce de Leche Light,SanCor,por 1 cucharada sopera (20g) ,55,0.0,12.0,1.3
+202,Sublime Dulce de Leche,SanCor,por 100g ,159,3.5,28.0,3.9
+203,"Lomo de Res (Magro, Cortado a 0,5 Cm de Grasa)",Beepure,por 100 g ,169,8.85,0.0,20.78
+204,Dulce de Leche sin Azucar,,por 1 cuchara de sopa (20g) ,43,0.5,12.0,1.19
+205,"Lomo de Res (Magro, Recortado a 0,3 Cm de Grasa)",,por 100 g ,127,3.54,0.0,22.27
+206,Mermelada Light de Damasco,Arcor,por 1 cucharada de sopa (20g) ,27,0.0,7.0,0.0
+207,Mermelada de Higo,El Brocal,por 1 cucharada (20g) ,51,0.0,12.0,0.3
+208,Mermelada Frutos Rojos,Dia,por 1 cucharada (20g) ,50,0.0,13.0,0.0
+209,Mermelada de Durazno Light,El Brocal,por 1 cucharada  ,32,0.0,8.2,0.0
+210,Mermelada de Durazno sin Azucar,Orieta,por 1 cucharada sopera (20g) ,26,0.0,7.0,0.0
+211,Mermelada de Frutilla,Best,por 1 cuchara de sopa (20g) ,53,0.0,13.0,0.0
+212,Mermelada de Durazno con Semillas,Cuarto Creciente,por 1 cucharada (20g) ,10,0.32,1.6,0.2
+213,Mermelada de Frutilla ,La Campagnola,por 1 cucharada de sopa (20g) ,55,0.0,14.0,0.0
+214,Mermelada de Arándano Light,Canale,por 1 cucharada sopera (20g) ,31,0.0,6.8,0.7
+215,Mermelada de Frutilla,Arcor,por 1 cucharada sopera (20g) ,52,0.0,13.0,0.0
+216,Stax,Lay's,por 100g ,530,32.0,57.0,3.6
+217,Papas Fritas sin Sal,Primer Precio,por 1 porción (25g) ,130,8.0,13.0,1.5
+218,Crema Ácida y Papas Fritas con Sabor a Cebolla,Dia,por 100 g ,531,33.9,51.5,8.1
+219,Potato Crisps Sabor Crema y Cebolla,Lay's,por 14 unidades (25g) ,135,8.0,14.0,1.0
+220,Restó Lomo con Cebolla Caramelizada,3D,por 1 porción (25g) ,126,7.9,12.0,1.8
+221,Megatube Mega Queso,,por 1 taza de té (25g) ,132,7.9,14.0,1.3
+222,Galletas de Azúcar (Incluye Vainilla),,por 1 galleta ,72,3.16,10.18,0.76
+223,Galletas (con Relleno de Vainilla),,por 1 roscón ,48,2.0,7.21,0.45
+224,Galletas de Chocolate (con Mantequilla),,por 1 mediana ,78,4.54,9.31,0.91
+225,Pasta de Trigo Entero Seco,,por 100 g ,348,1.4,75.03,14.63
+226,Pizza de Pepperoni (36 Cm),,por 1 tajada ,298,12.13,33.98,13.32
+227,"Sustituto de Crema (Ligero, Líquido)",,por 1 taza ,167,8.47,22.02,1.94
+228,Crema Agria (de Cultivo),,por 1 cucharada ,26,2.52,0.51,0.38
+229,Fondue de Queso,,por 1 taza ,492,28.96,8.11,30.59
+230,Corazón de Pollo,,por 100 g ,153,9.33,0.71,15.55
+231,Carne Molida de Avestruz,,por 100 g ,165,8.7,0.0,20.22
+232,Manteca de Maní,Sytari,por 1 cucharada (15g) ,91,6.8,4.0,3.4
+233,Turrón de Mani,Body Vida,por 1 turrón (20g) ,88,3.0,15.0,1.0
+234,Maní con Chocolate,Georgalos,por 2 1/2 cucharada de sopa (25g) ,145,10.0,9.0,5.0
+235,Barra Crocante de Arroz Inflado con Maní y Miel,Egran,por 1 barra (20g) ,84,1.3,17.0,1.1
+236,Maní Salado sin Piel,Croppers,por 100g ,601,49.0,15.0,25.0
+237,Crema de Maní Proteica ,Byour Food,por 1 cucharada (17g) ,95,7.7,1.5,4.9
+238,Maní Crocante,Mani King,por 100g ,464,24.0,47.0,15.0
+239,Crema de Maní Natural,Hardy,por 1 cucharada de sopa (25g) ,119,9.9,2.7,4.8
+240,Garrapiñadas de Maní,Bonafide,por 25 unidades ,115,4.4,16.0,2.4
+241,Frutos Mezclados Tostados con Maní,,por 1 porción de 10 frutos secos variados ,86,7.89,3.0,2.35
+242,Galletitas Dulces,Alfa Pampa,por 1 unidad (19g) ,78,4.4,9.0,0.8
+243,Pan Dulce de Canela (con Crema de Vainilla),Cachafaz,por 1 rollo ,100,3.66,15.48,1.5
+244,Maíz Dulce,Carrefour,por 100 g ,86,1.18,19.02,3.22
+245,Galletitas,Rocklets,por 2 galletitas (25g) ,101,4.5,13.0,2.2
+246,Galletitas Dulces Multifruta,Ser,por 3 unidades (35g) ,153,5.4,24.0,2.0
+247,Galletitas ,9 de Oro,por 3 galletitas (32g) ,153,6.5,22.0,2.0
+248,Masa de Pan Dulce Rellena de Carne (al Vapor),Frutigran,por 1 manapua ,215,8.89,21.74,10.76
+249,Galletitas Dulces Sabor Vainilla,,por 8 galletitas (32g) ,127,2.4,23.0,2.9
+250,Bizcochos de Arroz Dulces,,por 18 galletas (25g) ,95,0.0,22.0,1.7
+251,Galletitas Dulces con Salvado,,por 2 galletas (30g) ,130,4.5,20.0,2.3
+252,Palomitas de Maíz con Sabor a Queso,,por 1 taza ,58,3.65,5.68,1.02
+253,Imitación del Cangrejo Rey de Alaska (a Partir de Surimi),,por 100 g ,102,1.31,10.22,12.02
+254,Barras de Granola Blandas Recubiertas con Chispas de Chocolate,,por 1 barra ,163,8.72,22.33,2.03
+255,Chips de Tortilla (de Maíz Blanco),,por 100 g ,488,23.36,65.32,7.79
+256,Pan Dulce de Canela (con Crema de Vainilla),,por 1 rollo ,100,3.66,15.48,1.5
+257,Pan de Maíz (Bollo de Maíz) (Mezcla Seca),,por 100 g ,418,12.2,69.5,7.0
+258,"Polvo de Hornear (Fosfato Directamente, de Doble Efecto)",,por 1 cucharadita ,2,0.0,1.11,0.0
+259,Panecillos de Salvado de Avena,,por 1 mediano ,305,8.36,54.58,7.91
+260,Pastel de Merengue de Limón,,por 1 trozo ,362,16.38,49.66,4.83
+261,Garrapiñadas de Almendras,,por 100 g ,472,17.5,68.69,10.0
+262,"Arroz Blanco (de Grano Corto, Cocido)",Rincon Integral,por 1 taza ,242,0.35,53.44,4.39
+263,Sándwich de Galletas de Chocolate (con Crema de Relleno),Arrocitas,por 1 galleta ,47,1.91,7.16,0.53
+264,Chispas de Chocolate para Galletas (con Margarina),,por 1 mediana ,78,4.53,9.34,0.91
+265,Galletas de Chocolate,,por 1 oblea ,26,0.85,4.34,0.4
+266,Galletas de Arroz Integral con Sal,,por 4 galletas (30g) ,112,0.7,24.0,2.4
+267,"Suero de Mantequilla o Galletas (Mezcla Seca, Preparada)",,por 100 g ,335,12.1,48.4,7.3
+268,"Carne Molida de Res (95% Magra / 5% de Grasa, Empanada, Cocido, Asado a la Parrilla)",,por 1 porción ,145,5.57,0.0,22.35
+269,Tortas de Arroz Integral Multicereales,,por 1 torta ,35,0.32,7.21,0.76
+270,Galletas de Arroz Yamani Trigo y Avena,,por 4 galletas (26g) ,100,0.9,20.0,2.6
+271,Tortas de Arroz Integral,,por 1 torta ,35,0.25,7.34,0.74
+272,Tostadas con Fibras y Semillas,Carrefour,por 3 1/2 tostadas (30g) ,116,2.1,21.0,3.4
+273,Tostadas Light,Bauducco,por 3 tostadas (30g) ,92,1.3,17.0,3.0
+274,Tostadas de Pan Light,COTO,por 3 unidades (30g) ,108,0.9,22.0,3.5
+275,Tostadas Light Saladas,Veneziana,por 3 tostadas (30g) ,110,1.3,22.0,3.0
+276,Tostadas Dietéticas Salvado y Chia,Fitz Roy,por 4 tostadas (30g) ,123,0.0,22.0,5.0
+277,Tostadas con Salvado con Gluten,Fargo,por 2 tostadas (30g) ,112,1.0,21.0,4.4
+278,Tostadas Dietéticas,Fitz Roy,por 4 tostadas (30g) ,108,0.0,22.0,4.0
+279,Tostadas Dulces,Bimbo,por 5 unidades (30g) ,117,1.6,22.0,3.7
+280,Tallarin,Best,por 1 plato (80g) ,283,2.1,57.0,8.8
+281,Tostadas de Arroz Multi Semillas,Lulemuu,por 12 tostadas (30g) ,109,0.9,23.0,1.8
+282,Mocha Frappuccino (Tall),Starbucks,por 1 porción (354ml) ,280,11.0,43.0,5.0
+283,Carajillo,Nescafé Dolca,por 1 taza de café ,92,0.02,3.41,0.15
+284,Café Moka,Bonafide,por 1 mediano ,394,9.14,66.97,10.94
+285,Capuchino,Nescafé Dolce Gusto,por 1 taza ,74,3.98,5.81,4.08
+286,Café Helado con Crema,Nescafé Dolce Gusto,por 1 taza de café ,26,1.47,2.91,0.39
+287,Cortado,,por 3 cucharadas de té (10g) ,39,0.5,7.0,1.9
+288,Sensaciones Torrado Intenso,,por 1 cuchara de sopa (5g) ,10,0.0,1.5,0.0
+289,Cappuccino,,por 1 cápsula leche  ,82,4.0,8.0,3.6
+290,Chai Latte,,por 1 mediana ,264,6.38,44.86,7.95
+291,Mocha,,por 1 porción (27g) ,119,5.1,13.0,5.5
+292,Paté de Foie,San Remo,por 1 cucharada de té (10g) ,18,1.2,0.6,1.2
+293,Paté de Foie con Pimienta Verde,Swift,por 1 cucharada de té (10g) ,32,3.1,0.0,0.8
+294,Paté de Salmón,Swift,por 1 cucharada de té (10g) ,26,2.4,0.0,0.9
+295,Paté de Atún,Carrefour,por 1 cuchara de té (10g) ,26,1.9,0.9,1.5
+296,Té Verde,La Virginia,por 1 saquito (2g) ,0,0.0,0.0,0.0
+297,Levité Cero,Villa del Sur,por 1 vaso (200ml) ,0,0.0,0.0,0.0
+298,Mermelada Dietética de Arándanos ,Trini,por 1 cuharada sopera (20g) ,18,0.0,6.0,0.0
+299,Alfajor Dietético ,Ceral,por 1 unidad (45g) ,100,2.3,17.3,2.4
+300,Levité,Villa del Sur,por 1 vaso (200ml) ,69,0.0,17.0,0.0
+301,Mermelada Dietética Frutilla,Cuarto Creciente,por 1 cucharada (20g) ,6,0.0,1.3,0.11
+302,Jamón Ahumado de Miel (Cocidos),Taragüi,por 100 g ,122,2.37,7.27,17.93
+303,Carne de Pavo Molida (Cocida),Lario,por 100 g ,235,13.15,0.0,27.36
+304,"Tocino (Curado, Frito, Cocido)",,"por 1 tajada, cocida ",42,3.18,0.12,3.03
+305,Caldo de Pescado,,por 1 taza ,39,1.46,0.98,4.88
+306,"Pechuga de Pavo con la Piel Incluída (Cocida, Asada)",,por 100 g ,189,7.41,0.0,28.71
+307,Brócoli Cocido (Fresco),,"por 1 taza, tallos cortados frescos ",87,4.33,11.24,3.7
+308,"Alitas de Pollo con la Piel(a la Parrilla, Freídas o Cocidas)",,"por 1 ala, deshuesada ",99,6.62,0.0,9.13
+309,"Carne de Pollo Magra (a la Parrilla, Asada, Cocida)",,por 100 g ,153,4.07,0.0,27.13
+310,Yerba Mate,,por 1 porción (50g) ,30,0.0,6.0,2.0
+311,Jamon Cocido,,por 2 fetas (40g) ,40,1.4,0.0,6.6
+312,Cacahuate Cacao Power,Vivet,por 1 vaso (200ml) ,154,8.0,15.0,5.2
+313,Trufas Surtidas,Havanna,por 2 1/2 unidades (25g) ,122,7.0,12.0,2.0
+314,Chocolate en Leche,Lindt,por 1 taza ,192,5.82,26.58,8.8
+315,Chocolate 85% Cacao,Crudencio,por 100g ,530,46.0,19.0,11.0
+316,Cookies Cacao,Ysonut,por 1 porción (30g) ,106,6.3,10.1,5.0
+317,Bebida Sabor Cacao,Ravana,por 1 sobre (28g) ,104,2.0,3.0,18.0
+318,Cacao Instantáneo,Zucoa,por 1 porción (20g) ,78,0.0,18.0,1.0
+319,Chocolate con Leche,Nesquik,por 1 taza ,190,5.25,28.88,7.7
+320,Licuado Sabor Frutilla,,por 2 cucharadas de sopa (20g) ,76,0.0,19.0,0.0
+321,Leche Chocolatada,,por 1 vaso (200ml) ,117,1.9,19.0,5.7
+322,Chocolate con Leche sin Azúcar Agregada,Georgalos,por 1 tableta (30g) ,142,10.0,11.0,3.0
+323,Chicle sin Azúcar,Beldent,por 2 unidades (3g) ,5,0.0,2.2,0.0
+324,Café Tostado Molido Libre de Azúcar ,Cabrales,por 100g ,418,8.0,76.0,10.0
+325,Chocolate Amargo sin Azucar Agregada,Georgalos,por 1/4 tableta (25g) ,130,10.0,8.5,1.4
+326,Dulce de Leche sin Azúcar,San Ignacio,por 1 cucharada (20g) ,50,0.7,10.0,0.9
+327,Cereales y Semillas,Fargo,por 1 1/2 rebanadas (50g) ,124,2.4,20.0,5.2
+328,Barra de Cereal Durazno Light,Cereal Mix,por 1 barrita (23g) ,66,0.7,16.0,1.0
+329,Galletas de Cereales Inflados Multicereal,Grandiet,por 100g ,387,7.9,69.0,10.0
+330,Barra de Cereales con Naranja ,Cereanola,por 1 barra (21g) ,63,1.5,13.0,0.9
+331,Barra de Cereales con Frutilla,Ser,por 1 barra (23g) ,61,1.4,14.0,1.2
+332,Barra de Cereales con Manzana ,Great Value,por 1 barra (21g) ,84,2.2,15.0,0.9
+333,Yogurisimo Descremado Cereales con Miel,La Serenísima,por 1 porción (166g) ,148,0.0,29.0,8.0
+334,Galletas de Cereales Inflados Multicereal Dulces,Grandiet,por 100g ,369,4.2,74.0,8.8
+335,Granola,Cereal Mix,por 1 barra (25g) ,103,3.8,15.0,2.1
+336,Jardinera de Cereales y Legumbres,Egran,por 1/4 taza de té (50g) ,161,0.7,30.0,8.6
+337,Galletas de Azúcar (Incluye Vainilla),,por 1 galleta ,72,3.16,10.18,0.76
+338,Galletas (con Relleno de Vainilla),,por 1 roscón ,48,2.0,7.21,0.45
+339,Galletas de Chocolate (con Mantequilla),,por 1 mediana ,78,4.54,9.31,0.91
+340,Pasta de Trigo Entero Seco,,por 100 g ,348,1.4,75.03,14.63
+341,Pizza de Pepperoni (36 Cm),,por 1 tajada ,298,12.13,33.98,13.32
+342,"Sustituto de Crema (Ligero, Líquido)",,por 1 taza ,167,8.47,22.02,1.94
+343,Crema Agria (de Cultivo),,por 1 cucharada ,26,2.52,0.51,0.38
+344,Fondue de Queso,,por 1 taza ,492,28.96,8.11,30.59
+345,Corazón de Pollo,,por 100 g ,153,9.33,0.71,15.55
+346,Carne Molida de Avestruz,,por 100 g ,165,8.7,0.0,20.22
+347,Barras de Granola Blandes,Orann,por 1 barra ,124,4.82,18.84,2.07
+348,Barras de Granola Duras,Granix,por 1 barra ,118,4.95,16.1,2.52
+349,Barras Blandas de Granola con Chispas de Chocolate,Integralia,por 1 barra ,181,7.14,29.71,3.14
+350,Turrón Natural,Archimboldo,por 100g ,538,40.0,26.0,16.4
+351,Pétalos de Cereales,Frutigran,por 1 taza (30g) ,113,0.2,25.0,2.8
+352,Galletitas Integrales con Salvado y Limón ,Great Value,por 5 galletitas (30g) ,117,4.2,17.0,2.8
+353,Granola Crocante con Semillas,Kos Food,por 1/2 taza (50g) ,141,6.1,18.2,5.3
+354,Granola Cacao y Avellanas,,por 3 galletitas (28g) ,119,5.1,16.0,2.2
+355,Granola Multifrutas,,por 1/2 taza (40g) ,157,5.0,24.0,3.5
+356,Granola Tropical,,por 1/3 taza (40g) ,157,4.3,24.0,4.3
+357,Bizcocho Escarchado o Relleno (sin Chocolate),Danette,por 100 g ,364,11.4,63.9,3.1
+358,Chocolate con Leche,,por 1 taza ,190,5.25,28.88,7.7
+359,Croissant de Chocolate,,por 1 croissant ,237,13.75,25.19,4.94
+360,Yogur Helado de Chocolate,,por 1 taza ,226,3.9,43.22,10.48
+361,Chocolate con Leche Descremada,,por 1 taza ,140,0.7,27.22,8.55
+362,Helado en un Palo Cubierto de Chocolate,,por 1 barra ,171,12.5,14.36,1.66
+363,Enjambre de Chocolate,,por 1 enjambre ,232,5.74,42.44,3.87
+364,Cono de Chocolate,,por 1 cono y barquillo ,173,7.43,24.77,3.18
+365,Chispas de Chocolate,,por 100 g ,479,30.0,63.1,4.2
+366,Postre Chocolate,,por 1 pote (95g) ,144,5.2,21.0,3.3
+367,Maxialfajor,Jorgelin,por 1 alfajor (85g) ,336,13.0,46.0,4.7
+368,Galletita de Mousse,Balcarce,por 1 galletita (14g) ,67,3.4,8.3,0.7
+369,Alfajor Chocolate Light,Epuyen,por 1 porción (50g) ,170,6.0,28.0,5.0
+370,Alfajor,Cabsha,por 1 alfajor (47g) ,195,7.6,28.0,3.2
+371,Mini Alfajor,Solitas,por 3 galletitas (30g) ,152,5.4,24.0,1.8
+372,Alfajor Triple,Terrabusi,por 1 alfajor (70g) ,270,9.3,41.0,4.6
+373,Mini Alfajor Chocolate Blanco ,Havanna,por 1 aljajor (25g) ,99,3.0,17.0,1.6
+374,Alfajor Block,Cofler,por 1 alfajor (60g) ,309,18.0,30.0,6.7
+375,Rapsodia Mini Torta,Nevares,por 1 unidad (80g) ,296,10.0,48.0,3.0
+376,Alfajor Blanco,Havanna,por 1 alfajor (47g) ,160,3.8,29.0,2.6
+377,Leche Entera Extra Calcio,SanCor,por 1 vaso (200ml) ,116,6.0,9.6,6.0
+378,Leche Evaporada,Apóstoles,por 1 taza ,338,19.05,25.3,17.16
+379,Leche (sin Grasa),Cooperativa,por 1 taza ,86,0.44,11.88,8.35
+380,Yogur de Frutas con Leche Entera,,por 1 envase de 170 g ,202,5.51,31.67,7.28
+381,Chocolate con Leche (Semidescremada),,por 1 taza ,158,2.5,26.1,8.1
+382,Leche Entera,,por 100ml ,58,3.0,4.8,3.0
+383,Leche Entera Larga Vida,,por 1 vaso (200ml) ,116,6.0,9.6,6.0
+384,Crema de Leche,,por 1 cucharada ,52,5.55,0.42,0.31
+385,Queso Mozzarella de Leche Entera (con Toda Su Crema),,por 1 tajada ,85,6.34,0.62,6.29
+386,"Suero de Leche (Baja en Grasa, Cultivado)",,por 1 taza ,98,2.16,11.74,8.11
+387,Leche en Polvo Descremada,Manfrey,por 2 cucharadas soperas (20g) ,72,0.2,11.0,7.1
+388,Leche Descremada + Fibra,Ilolay,por 1 vaso (200ml) ,64,0.0,9.6,6.3
+389,Leche (2% Baja en Grasa con Adición de Vitamina a y Proteínas),La Serenísima,por 1 taza ,138,4.87,13.51,9.72
+390,Leche Descremada,Nestlé,por 1 sobre (5g) ,18,0.1,2.6,1.8
+391,Helado Kitkat,La Lácteo,por 1 unidad (61g) ,215,14.0,20.0,2.6
+392,Leche Parcialmente Descremada,SanCor,por 1 vaso (200ml) ,80,2.0,9.6,6.0
+393,Leche Parcialmente Descremada Reducida en Lactosa,La Serenísima,por 100ml ,45,1.5,4.8,3.0
+394,Fácil Digestión Multifruta,Conaprole,por 1 vaso (200g) ,40,0.1,8.7,1.2
+395,Yogurt Vital+,,por 1 porción (200g) ,71,0.0,10.0,7.7
+396,Lácteos (1% Baja en Grasas con Adición de Vitamina a),,por 1 taza ,102,2.37,12.18,8.22
+397,Dulce de Leche,,por 100 g ,310,5.63,61.98,5.15
+398,Chocolate y Azúcar (con Leche Descremada),,por 1 taza ,158,0.7,29.97,8.6
+399,Chocolate con Leche,,por 1 taza ,190,5.25,28.88,7.7
+400,Capuchino con Leche Descremada,,por 1 taza de café ,34,0.19,4.65,3.23
+401,Batido de Leche,,por 1 batido ,382,13.84,56.91,9.03
+402,Bollo de Leche,,por 1 unidad ,266,10.15,35.78,7.5
+403,Café con Leche,,por 1 mediano ,135,5.51,12.36,8.81
+404,Leche de Grasa Reducida,,por 1 taza ,122,4.81,11.42,8.05
+405,Leche de Almendras,,por 1 taza ,40,3.58,1.4,1.51
+406,Leche Baja en Grasa,,por 1 taza ,102,2.37,12.18,8.22
+407,Leche Entera en Polvo,Cotar,por 1 porción (25g) ,126,6.7,10.0,6.5
+408,Leche en Polvo Descremada,Santa Elena,por 1 porción (18g) ,62,0.0,9.5,5.9
+409,Puré de Papas (Leche Entera y Margarina Adicionadas),Milkaut,por 1 taza ,237,8.8,35.51,4.2
+410,Leche (sin Grasa),Santa Elena,por 1 taza ,86,0.44,11.88,8.35
+411,"Aceite de  Mantequilla Vegetal para Untar (Baja en Calorías, Salada)",Ilolay,por 1 cucharada ,63,7.0,0.14,0.14
+412,Leche en Polvo Descremada,Verónica,por 3 cucharadas soperas (20g) ,72,0.3,10.0,7.0
+413,Leche Entera en Polvo,,por 2 1/2 cucharada sopera (27g) ,131,7.0,10.0,7.0
+414,"Maíz Amarillo Dulce (Granos en la Mazorca, sin Sal, Congelados, Escurridos, en Conserva)",,"por 1 mazorca, producto ",59,0.47,14.07,1.96
+415,Leche en Polvo Descremada,,por 1 sobre (5g) ,18,0.0,2.6,1.8
+416,Leche en Polvo Descremada,,por 2 cucharadas soperas (18g) ,65,0.2,9.5,6.3
+417,Choclo Amarillo Entero,Jumbo,por 1 porción (130g) ,110,2.2,18.0,4.5
+418,Yogur Entero Batido,Ilolay,por 1 porción (120g) ,118,3.4,17.0,4.9
+419,Yogurt Batido Entero,Milkaut,por 1 vaso (200g) ,184,5.4,26.0,8.0
+420,Choclo Amarillo Entero,Great Value,por 1 taza de té (103g) ,54,1.0,8.2,3.1
+421,Yogur Entero Batido,Dia,por 1 porción (125g) ,124,3.5,18.0,5.1
+422,Pan de Trigo Entero,El Pan del Peregrino,por 1 rodaja (25g) ,44,0.0,9.0,1.8
+423,Yogur Entero de Arándano,Tregar,por 1 pote (160g) ,159,4.0,25.0,5.8
+424,Huevo Entero en Polvo,Ovoprot,por 1  cucharada sopera  (13g) ,72,5.0,0.5,6.2
+425,Yogur Entero con Cereales,Ilolay,por 1 pote (165g) ,202,4.3,34.0,6.7
+426,Yogurt Entero Firme Frutilla,Ilolay,por 1 pote (120g) ,113,3.5,15.0,5.4
+427,Yogur Descremado Batido,Dia,por 1 porción (125g) ,53,0.0,7.5,5.3
+428,Queso Blanco Descremado ,Jumbo,por 1 porción (50g) ,29,1.8,0.0,3.3
+429,Yogur Descremado Arándano,Tregar,por 1 pote (160g) ,82,0.0,14.0,6.5
+430,Queso Blanco Descremado,Festa,por 1 porción (30g) ,55,2.3,0.9,7.7
+431,Yogur Descremado Batido,Ilolay,por 1 unidad (120g) ,49,0.0,7.2,5.0
+432,Yogur Descremado Firme,Carrefour,por 1 pote (125g) ,54,0.0,7.5,5.6
+433,Yogur Descremado Frutilla,Dia,por 1 taza (200g) ,85,0.6,12.0,8.0
+434,Yogur Descremado Frutilla ,Dahi,por 1 frasquito (200g) ,192,0.0,40.0,7.8
+435,Yogurt Firme Descremado,Manfrey,por 1 porción (140g) ,56,0.3,7.0,5.3
+436,Yogur Parcialmente Descremado,Ramolac,por 1 pote (125g) ,102,2.5,16.3,3.5
+437,Medialuna de Manteca,McDonald's,por 1 porción (37g) ,121,5.2,17.0,2.0
+438,Queso Mozzarella de Leche Entera (con Toda Su Crema),,por 1 tajada ,85,6.34,0.62,6.29
+439,Leche (2% Baja en Grasa con Adición de Vitamina a y Proteínas),,por 1 taza ,138,4.87,13.51,9.72
+440,Queso Ricotta (Leche Entera),,por 100 g ,174,12.98,3.04,11.26
+441,Leche con Chocolate (Completa),,por 1 taza ,208,8.48,25.85,7.92
+442,Pan de Maíz (con Bajo Contenido de Grasa (2%) de la Leche),,por 100 g ,266,7.1,43.5,6.7
+443,Sándwich de Galletas de Chocolate (con Crema de Relleno),,por 1 galleta ,47,1.91,7.16,0.53
+444,Panecillos de Salvado de Avena,,por 1 mediano ,305,8.36,54.58,7.91
+445,Granos Secos de Semillas de Girasol,,por 100 g ,570,49.57,18.76,22.78
+446,Pan de Trigo (Incluye Bayas de Trigo),,por 1 tajada ,65,1.02,11.8,2.28
+447,Galletas (con Relleno de Mantequilla de Maní),,"por 1 galleta, bocadillo ",35,1.72,4.09,0.8
+448,Sopa de Huevo Estrellado,,por 1 taza ,73,3.83,1.1,7.52
+449,Tortilla de Huevos o Huevos Revueltos con Queso,,por 1 grande ,140,10.37,2.23,9.15
+450,"Ensalada de Lechuga con Huevo, Queso, Tomate y/o Zanahoria",,por 1 ensalada al Jardín ,123,7.41,7.41,7.86
+451,Perico,,por 1 porción ,171,11.82,3.65,12.11
+452,Huevos Benedictinos,,por 1 grande ,428,33.48,12.9,18.54
+453,Tortilla de Huevos o Huevos Revueltos con Verduras,,por 1 grande ,106,7.34,2.38,7.22
+454,Huevo Escalfado,,por 1 grandes ,73,4.95,0.38,6.26
+455,Ensalada de Huevo,,por 1 taza ,706,67.18,4.28,20.42
+456,Rosquillas de Huevo,,por 1 mini ,72,0.55,13.78,2.76
+457,Rollo de Huevo sin Carne,,por 1 rollo de huevo ,100,5.8,9.73,2.6
+458,Ensalada de Papas con Huevo,Pehuamar,por 1 taza ,262,13.61,30.8,5.35
+459,"Papas a la Francesa (Prefritas, Congeladas)",McCain,"por 1 porción de 10 tiras (2,5 cm ",112,5.96,13.14,1.32
+460,Tapa de Asado,McDonald's,por 100 g ,213,15.02,0.0,19.0
+461,Papas a la Francesa Apanadas o Soteadas,,por 1 porción de 10 papas rizadas ,171,10.39,16.5,3.09
+462,Estofado de Ternera con Papas y Verduras (con Zanahorias y Brócoli en Salsa de Tomate),,por 1 taza ,222,9.73,19.53,13.86
+463,Estofado de Carne con Papas y Verduras en Salsa de Tomate,,por 1 taza ,207,5.75,21.9,16.63
+464,"Pollo o Pavo y Verduras en Salsa de Soja (Incluyendo Zanahorias y Brócoli, sin Papas)",,por 1 taza ,180,8.59,9.28,15.86
+465,Papas Fritas,,por 1 taza de té (25g) ,127,6.7,15.0,1.6
+466,Papas Caritas,,por 100g ,175,6.2,26.0,2.4
+467,Papas Fritas (Pequeñas),,por 1 porción (73g) ,206,11.0,25.0,2.9
+468,"Margarina (de Aceite Vegetal, al 20% de Grasa)",,por 1 cucharada ,26,2.92,0.06,0.0
+469,Aderezo de Ensalada Mil Islas (Libre de Grasa),,por 1 cucharada ,21,0.23,4.68,0.09
+470,Aderezo de Ensalada Italiana (Libre de Grasa),,por 1 cucharada ,7,0.12,1.22,0.14
+471,"Paté de Hígado de Ganso (Ahumado, Enlatado)",,por 1 cucharada ,60,5.7,0.61,1.48
+472,"Cecina de Pecho de Res (Salados, Cocidos)",,por 100 g ,251,18.98,0.47,18.17
+473,"Costillas de Res (Bordes Cortados con 0,3 Cm de Grasa)",,por 100 g ,254,19.06,0.0,19.33
+474,"Lomo de Ternera Superior (que Se Corta a 0,3 Cm de Grasa)",,por 100 g ,228,15.49,0.0,20.61
+475,"Lomito de Res (Cortado a 0,3 Cm de Grasa)",,por 100 g ,247,18.16,0.0,19.61
+476,"Carne de Res Molida (Hamburguesas, 23% de Grasa Aprox., Empanadas Congeladas)",,por 100 g ,282,23.19,0.0,17.11
+477,Semillas de Calabaza Secas y Granos de Calabaza,,por 100 g ,541,45.85,17.81,24.54
+478,Pan de Maíz (Bollo de Maíz) (Mezcla Seca),,por 100 g ,418,12.2,69.5,7.0
+479,Barras de Granola Blandas Recubiertas con Chispas de Chocolate,,por 1 barra ,163,8.72,22.33,2.03
+480,Palomitas de Maíz,,por 1 taza ,31,0.36,6.22,1.04
+481,Palomitas de Maíz (Hechas en Microondas),,por 1 taza ,60,3.63,6.33,0.82
+482,Palomitas de Maíz con Sabor a Queso,,por 1 taza ,58,3.65,5.68,1.02
+483,"Mezcla de Frutas Secas con Trocitos de Chocolate, Nueces y Semillas Saladas",,por 100 g ,484,31.9,44.9,14.2
+484,Pastel de Chocolate (con Escarcha de Chocolate),,por 1 trozo ,235,10.5,34.94,2.62
+485,Galletas de Mantequilla de Maní,,por 1 galleta ,72,3.54,8.84,1.44
+486,Galletas (con Relleno de Mantequilla de Maní),,"por 1 galleta, bocadillo ",35,1.72,4.09,0.8
+487,Pan de Trigo (Incluye Bayas de Trigo),,por 1 tajada ,65,1.02,11.8,2.28
+488,Seitan,Vegantime,por 1 porción (40g) ,53,0.0,3.4,9.6
+489,Salchicha o Hot Dog,Granja Iris,por 1 salchicha ,175,14.89,2.54,7.22
+490,Salchichas Light ,Vegetalex,por 1 1/4 unidades (40g) ,55,2.0,3.9,5.3
+491,Salchichas de Soja,La Anónima,por 1 1/2 unidades (50g) ,40,0.0,3.9,6.2
+492,Salchicha o Perro Caliente con Salsa de Tomate y / o Mostaza,Friolim,por 1 salchicha en pan ,284,16.59,22.85,10.24
+493,Salchichón Tipo Primavera,Patyviena,por 3 fetas (40g) ,68,4.0,4.0,4.0
+494,Salchichas Polacas,,por 1 salchicha ,704,61.63,4.86,30.1
+495,Salchicha Tipo Salzburgo,,por 1 porción (50g) ,103,9.8,5.9,5.8
+496,Salchicha Alemana,,por 1 salchicha (63g) ,149,12.0,1.9,8.9
+497,Chorizos,,"por 1 tira (8,5 cm de largo) ",200,16.84,0.82,10.6
+498,Macarrones o Fideos con Queso (Mezclar en Caja con Salsa de Queso),Carrefour,por 1 taza ,386,11.59,54.29,15.28
+499,Quiche de Queso sin Carne,,por 1 trozo ,566,43.99,26.73,16.67
+500,"Sánduche de Pollo con Queso, Lechuga y Tomate en Pan de Pita",,por 1 sándwich de pita ,310,12.21,28.13,21.73
+501,Ravioles 4 Quesos,,por 100g ,268,5.0,46.0,9.2
+502,Sánduche de Queso a la Plancha,,por 1 sánduche ,291,15.77,27.85,9.16
+503,Hamburguesa de Pollo Apanado con Queso,,por 1 empanada ,206,12.34,12.03,11.61
+504,Queso de Soja Extra Firme,,por 1 tajada ,46,1.6,1.68,6.22
+505,Hamburguesa con Queso ,,por 1 hamburguesa con Queso ,317,14.56,27.86,17.25
+506,Pizza de Queso (36 Cm),,por 1 tajada ,272,9.8,33.56,12.27
+507,"Hamburguesa de 1/4 de Libra, con Queso",,por 1 hamburguesa con queso ,552,29.9,35.46,33.17
+508,Chimichanga con Carne y Queso,,por 1 chimichanga ,443,23.44,39.33,20.06
+509,Enchilada de Queso y Carne,,por 1 enchilada ,323,17.64,30.47,11.92
+510,Sánduche de Carne Asada con Queso,,por 1 sánduche ,473,18.0,45.37,32.23
+511,Sánduche de Carne,,por 1 sánduche ,459,14.08,51.96,30.33
+512,Pizza de Carne y Verduras (36 Cm),,por 1 tajada ,332,14.82,34.52,14.99
+513,Chili con Carne con Frijoles Plato Principal (Enlatados),,por 1 taza ,298,12.94,28.12,17.44
+514,Carne de Pollo (Asada),,por 100 g ,111,2.7,0.0,20.33
+515,"Carne de Pollo (Tostado, Asado, Cocido)",,"por 1 taza, picada o en cubitos ",234,9.28,0.0,35.01
+516,Carne de Pollo Magra (Asada),,por 100 g ,109,1.63,0.0,22.2
+517,"Carne de Pollo Magra (a la Parrilla, Asada, Cocida)",,por 100 g ,153,4.07,0.0,27.13
+518,Pollo Teriyaki,Green Eat,por 100 g ,149,2.85,6.04,21.14
+519,Nuggets de Pollo Bajos en Grasa,,por 1 trozo ,35,1.14,2.48,3.47
+520,Carne de Pollo (Asada),,por 100 g ,111,2.7,0.0,20.33
+521,Alitas de Pollo al Horno o Fritas con la Piel (Comiendo la Piel),,por 1 pequeña ,137,9.16,4.64,8.45
+522,Roll de Pollo,,por 1 porción ,609,31.0,37.0,37.0
+523,Pollo al Maní,,por 1 taza ,300,7.41,37.33,21.46
+524,Hamburguesa de Pollo,,por 1 hamburguesa ,142,7.35,0.0,17.84
+525,Pernil de Pollo,,por 1 pequeño ,135,8.45,0.0,13.67
+526,Pollo Frito (Comiendo la Piel),,por 1 tajada delgada ,18,1.07,0.0,2.0
+527,Pechuga de Pollo Empanada,,por 100 g ,297,18.82,16.32,15.59
+528,Salchichón,Paladini,por 1 porción ,127,10.5,0.59,6.94
+529,Flamenquín,,por 1 porción ,424,15.15,37.47,31.84
+530,Presa Ibérica,,por 100 g ,216,13.95,0.0,21.11
+531,Chorizos,,"por 1 tira (8,5 cm de largo) ",200,16.84,0.82,10.6
+532,Paleta de Cerdo Cocida,,por 1 feta (33g) ,32,1.2,0.0,5.0
+533,Chicharrón Prensado,,por 100 g ,400,36.98,0.0,15.61
+534,Pincho Moruno,,por 1 pincho ,293,20.7,1.25,24.14
+535,Rebanadas de Jamón,,por 1 tajada ,34,1.76,0.48,3.83
+536,Oreja de Cerdo,,por 1 oreja ,184,11.99,0.22,17.7
+537,Salchicha de Carne de Cerdo Fresca,,por 1 porción de 2 tiras ,170,14.86,0.0,8.45
+538,Melón Galia,,por 100 g ,23,0.2,5.58,0.62
+539,Melones Cantaloupe,,"por 1 taza, bolas ",60,0.34,14.44,1.49
+540,Maracuyá,,por 1 fruta ,17,0.13,4.21,0.4
+541,Manzana de Agua,,por 100 g ,25,0.3,5.7,0.6
+542,Piña,,"por 1 taza, cubitos ",74,0.19,19.58,0.84
+543,Guindas Rojas Ácidas,,por 1 taza ,52,0.31,12.55,1.03
+544,Moras,,por 1 taza ,62,0.71,13.84,2.0
+545,Yaca,,por 100 g ,94,0.3,24.01,1.47
+546,Peras Asiáticas,,"por 1 fruta 5,5 cm de alto x 6,5 cm de diámetro ",51,0.28,12.99,0.61
+547,Tamarindo,,por 1 fruta ,5,0.01,1.25,0.06
+548,Alcachofas Cocidas (Frescas),,por 1 globo mediano ,84,2.86,13.59,4.21
+549,"Guisantes (Dreanados, Enlatados)",,por 100 g ,69,0.35,12.58,4.42
+550,Chirivías,,por 100 g ,75,0.3,17.99,1.2
+551,Okra,,por 1 taza ,31,0.1,7.03,2.0
+552,Bellotas de Calabaza Invierno,,"por 1 taza, cubitos ",56,0.14,14.59,1.12
+553,Puré de Verduras,,por 1 taza ,199,7.09,31.0,5.02
+554,Tomates Rojos (Enlatados),,por 1 taza ,41,0.31,9.38,1.92
+555,Snowpeas (Vaina de Guisante),,por 1 taza ,26,0.13,4.76,1.76
+556,Papa Dulce,,por 100 g ,86,0.05,20.12,1.57
+557,Arvejas Verdes Cocidas,,"por 1 taza, productos frescos, congelados o enlatados ",167,4.04,25.01,8.55
+558,"Yogur de Frutas (Bajo en Grasa, Proteína 11G por 8 Oz)",,por 1 envase (225 g) ,238,3.2,42.22,11.03
+559,Frutos Tostados en Seco (con Maní Salado),,por 100 g ,594,51.45,25.35,17.3
+560,Champiñones Blancos (Fritos),,"por 1 taza, con rodajas ",28,0.36,4.36,3.87
+561,Fideos Secos de Huevo,,por 1 taza ,146,1.69,27.08,5.38
+562,Frutos Secos de Pino,,por 100 g ,673,68.37,13.08,13.69
+563,Semillas Secas de Sésamo Integrales,,por 1 cucharada ,52,4.47,2.11,1.6
+564,Pistachos Tostados en Seco (Salados),,por 100 g ,568,45.97,26.78,21.35
+565,Salami de Cerdo (Seco o Duro),,por 1 tajada ,41,3.37,0.16,2.26
+566,"Ensalada de Frutas Tropicales (Papaya Banano Piña y Guayaba, Sólidos y Líquidos, Almíbar en Conserva, Enlatados)",,por 1 taza ,221,0.26,57.47,1.05
+567,Pastel Hecho con Arroz Glutinoso y Fríjoles Secos,,por 1 trozo ,30,0.05,6.02,1.25
+568,Pan de Lino,La Salteña,por 100 g ,327,8.23,51.72,11.15
+569,Pan de Centeno,Lucchetti,por 1 tajada normal ,67,0.86,12.56,2.21
+570,Bollo de Leche,,por 1 unidad ,266,10.15,35.78,7.5
+571,Migas,,por 1 porción ,1008,64.35,59.63,45.54
+572,Pan de Pita Tostado,,por 1 pequeño ,79,0.34,15.91,2.6
+573,Tostadas de Pan Integral,,por 1 tajada normal ,68,1.06,12.32,2.39
+574,Pan de Queso,,por 1 tajada ,71,1.24,12.52,2.21
+575,Pan de Pueblo,,por 1 tajada normal ,66,0.84,12.55,2.22
+576,Pan Lacteado,,por 1 porción (50g) ,121,1.3,22.0,5.2
+577,Tortas Fritas,,por 3 cucharadas soperas (27g) ,92,1.2,18.0,2.5
+578,Pan Integral,,por 1 tajada ,69,1.18,12.91,2.72
+579,Pan Italiano,,"por 1 tajada, tamaño medio ",54,0.7,10.0,1.76
+580,Pan Integral de Centeno,,"por 1 tajada, tamaño medio ",65,0.81,12.35,2.26
+581,Pan de Pita Blanca,,por 1 grande ,165,0.72,33.42,5.46
+582,Pan de Salvado,,por 1 rebanada ,71,1.32,11.94,3.12
+583,Pan de Centeno Tostado,,"por 1 tajada, tamaño medio ",68,0.86,12.74,2.26
+584,Palitos de Pan,,"por 1 barra (19,5 cm x 1,5 cm) ",41,0.95,6.84,1.2
+585,Pan de Pasas,,por 1 tajada ,71,1.14,13.6,2.05
+586,Pan Francés con Mantequilla,,por 2 tajadas ,356,18.76,36.04,10.34
+587,Pan Integral Tostado,,por 1 tajada ,128,2.48,23.69,3.86
+588,Not Chicken Nuggets,Not Co,por 9 unidades  (130g) ,306,14.0,30.0,15.0
+589,Nuggets Crocantes (130g),Granja del Sol,por 1 porción  (130g) ,360,22.0,21.0,19.0
+590,Nuggets de Pollo,Paladini,por 7 nuggets (130g) ,263,11.0,22.0,18.0
+591,Nuggets de Brócoli ,Frizata,por 3 unidades (85g) ,191,7.0,26.0,6.0
+592,Nuggets de Pollo,Frizata,por 5 unidades (130g) ,239,11.0,14.0,21.0
+593,Nuggets de Pollo Crocantes,Sadia,por 6 unidades (130g) ,313,17.0,23.0,16.0
+594,Nuggets de Pollo con Queso,Sadia,por 10 unidades (130g) ,304,16.0,23.0,17.0
+595,Nuggets de Poroto Negro a la Mostaza,Molé,por 1/4 paquete (50g) ,144,1.1,25.0,8.3
+596,Nuggets de Pollo con Jamon,Sadia,por 6 unidades (130g) ,280,16.0,16.0,18.0
+597,Vegan Nuggets de Garbanzos y Quinoa,Green Kitchen,por 3 porciones del paquete (100g) ,265,13.0,25.0,12.0
+598,Moras Congeladas,,por 1 taza ,97,0.65,23.66,1.78
+599,"Maíz Dulce (Granos de Mazorca, Congelados)",,por 1/2 taza ,72,0.63,17.06,2.48
+600,Tortillas de Papa,,"por 1 pequeña, 7 cm de diámetro 1,5 cm de espesor ",59,3.24,6.14,1.33
+601,"Barras Pasra Desayunar (Avena, Azúcar, Pasas, Coco, Granola Incluyen Bar)",,por 1 barra ,200,7.57,28.68,4.21
+602,Pastel de Papas,,por 1 taza ,300,13.56,20.41,23.73
+603,Papas Deshidratadas,,por 1 porción ,102,5.37,12.75,1.31
+604,Frambuesas Congeladas sin Endulzante,,por 1 taza ,130,1.62,29.85,3.0
+605,Cerezas Congeladas,,por 1 porción de 10 ,23,0.22,5.62,0.47
+606,Fresas Congeladas con Azúcar,,por 1 taza ,222,0.36,59.82,1.33
+607,Fresas Congeladas,,por 1 taza ,222,0.36,59.82,1.33
+608,Helado Corazón,Bon o Bon,por 1 helado (50g) ,162,11.0,13.0,3.0
+609,Yogur Helado Griego,Karinat,por 1 porción (60g) ,100,1.6,18.0,3.4
+610,Yogures Helados de Chocolate,Yin Yang,por 1/2 taza ,115,4.32,17.93,2.88
+611,Huevo Hilado,Cindor,por 100 g ,290,14.95,30.19,8.94
+612,Mijo Pelado,Freddo,por 2 cucharadas de sopa (30g) ,108,1.0,21.0,3.7
+613,Helado ,Exquisita,por 1 unidad (60g) ,180,12.0,16.0,3.0
+614,Tableta Rellena Con Helado De Crema Americana,Too Good,por 1 unidad (50g) ,147,9.5,13.0,2.3
+615,Helado de Chocolate,,por 1 taza (50g) ,59,2.5,7.3,1.9
+616,Café Helado,,por 1 taza de café ,4,0.01,0.67,0.19
+617,Helado Chocolate ,,por 1 porción (60g) ,57,1.0,10.0,2.0
