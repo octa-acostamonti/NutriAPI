@@ -18,3 +18,7 @@ The feature that was added is that the optimal page to search for the maximum am
 25/04/2023
 
 I added a jupyernotebook file where im conducting some analysis on the results im getting as in for now, and where Im conducting some normalization of the data.
+
+28/4/2023
+
+Started learning about Selenium. Theres a dropdown menu on the Carrefour web page that doesnt let me excract with BS4 the data. I want to extract the name of the elements in the dropdown menu to then search them and extract each product name and its price. The product name will then be searched in the fatsecret.com web page, and then it will be added to the Pandas DataFrame and listed with its respective price.
