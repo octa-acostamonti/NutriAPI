@@ -1,5 +1,5 @@
-# NutriScraper
-NutriScraper is a Python web scraper that extracts nutritional information of food products from the website FatSecret.com.ar. It retrieves data such as product name, brand, serving size, calories, fat, carbohydrates, and protein. The scraper can extract data from multiple pages and consolidate the information into a single Pandas DataFrame.
+# NutriAPI
+NutriAPI is a Python web scraper that extracts nutritional information of food products from the website FatSecret.com.ar. It retrieves data such as product name, brand, serving size, calories, fat, carbohydrates, and protein. The scraper can extract data from multiple pages and consolidate the information into a single Pandas DataFrame.
 
 
 As of now, it only works with the page 'FatSecret.com.ar.' This is because my objective is to create a complete DataFrame filled with all the products and their corresponding nutritional facts, and then analyze the best products in terms of price, protein, and carbohydrates.
