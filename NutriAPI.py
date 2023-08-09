@@ -89,7 +89,8 @@ def main():
 
     return Tabla_Nutricional_Productos.to_csv("Tabla_Nutricional_Productos.csv")
 
-main()
+
+if __name__ == "__main__":
+    main()
 
 
-    
