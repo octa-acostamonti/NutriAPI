@@ -27,3 +27,12 @@ Started learning about Selenium. Theres a dropdown menu on the Carrefour web pag
 5/5/2023
 
 I found what I think is a bug in "fatsecret.com.ar". I had this problem where I had to enter every category of product I wanted to scrape, but due to how the database of the page was made, generally speaking, the items appeared to be pretty "random" or not labeled correctly. So for days I was able to extract only between 600 and 700 products. Today I found a section of the page that is supposedly of a brand (the brand is real) but had what I think is every or almost every item on their database. So I scraped that section of the page and got 2701 products. This is a huge improvment towards the goal.
+
+8/8/2023
+
+* Eliminated the two folders that contained the .py,.ipynb and CSVs files
+* Added the new NutriAPI notebook
+* Added the new NutriAPI.py File
+* Added the new Tabla_Nutricion_Productos CSV file
+
+All of this changes were comitted to enhance the code and put into action better coding practices.
