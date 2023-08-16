@@ -36,3 +36,11 @@ I found what I think is a bug in "fatsecret.com.ar". I had this problem where I 
 * Added the new Tabla_Nutricion_Productos CSV file
 
 All of this changes were comitted to enhance the code and put into action better coding practices.
+
+16/8/2023
+
+Started with the creation of the API using the Python framework FastAPI.
+
+* Added app folder 
+* Created main.py file 
+* Created __init__.py file
