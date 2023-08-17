@@ -76,9 +76,9 @@ def main():
             for caracter in Proteinas]
         print("Proteina  conseguida...")
 
-        Proteina = [p.replace(",", "").replace("g", "") for p in Proteina]
-        Grasa = [g.replace(",", "").replace("g", "") for g in Grasa]
-        Carbohidrato = [c.replace(",", "").replace("g", "") for c in Carbohidrato]
+        Proteina = [p.replace(",", ".").replace("g", "") for p in Proteina]
+        Grasa = [g.replace(",", ".").replace("g", "") for g in Grasa]
+        Carbohidrato = [c.replace(",", ".").replace("g", "") for c in Carbohidrato]
         Caloria = [c.replace("kcal", "") for c in Caloria]
         Cantidad = [c.split('(')[-1].replace(")", "").replace("g", "") for c in Cantidad]
 
@@ -93,6 +93,13 @@ def main():
             data_ = list(zip(Producto, Marca, Cantidad, Caloria, Grasa, Carbohidrato, Proteina))
             Tabla_Nutricional_Productos = pd.DataFrame(columns=columnas,data=data_)
 
+    
+    print(Tabla_Nutricional_Productos.head(4))
+    Tabla_Nutricional_Productos["Caloria(kcal)"] = Tabla_Nutricional_Productos["Caloria(kcal)"].astype("Int64")
+    Tabla_Nutricional_Productos["Grasa(g)"] = Tabla_Nutricional_Productos["Grasa(g)"].astype("Float64")
+    Tabla_Nutricional_Productos["Carbohidrato(g)"] = Tabla_Nutricional_Productos["Carbohidrato(g)"].astype("Float64")
+    Tabla_Nutricional_Productos["Proteina(g)"] = Tabla_Nutricional_Productos["Proteina(g)"].astype("Float64")
+    print(Tabla_Nutricional_Productos.head(4))
     return Tabla_Nutricional_Productos.to_csv("Tabla_Nutricional_Productos.csv")
 
 
