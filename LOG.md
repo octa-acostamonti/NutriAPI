@@ -44,3 +44,11 @@ Started with the creation of the API using the Python framework FastAPI.
 * Added app folder 
 * Created main.py file 
 * Created __init__.py file
+
+17/8/2023
+
+I added a normalization part to the code so that the outputed CSV has clear datatypes.
+
+* Modified NutriAPI.py with the normalization code
+* Modified NutriAPI.ipynb, where I practiced the code to clean the rows
+* The CSV got modified due to the changes in the code
