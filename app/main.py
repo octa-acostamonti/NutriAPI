@@ -27,5 +27,6 @@ def get_proteinas():
 @app.post("/createposts/")
 def create_posts(new_post: Post):
     print(new_post)
-    return {"new_post":f"title: {new_post['title']} content: {new_post['content']}"}
+    print({"new_post":f"title: {new_post.title} content: {new_post.content}"})
+    return {"new_post":f"title: {new_post.title} content: {new_post.content}"}
 # title str, content str

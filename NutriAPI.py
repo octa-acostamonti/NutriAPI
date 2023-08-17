@@ -75,15 +75,21 @@ def main():
         Proteina = [caracter.text.replace("\r", "").replace("\n", "").replace("\t", "").split("|", 3)[-1].split("|")[0].strip().replace("Prot:", "").split("g", 1)[0] + "g".strip() 
             for caracter in Proteinas]
         print("Proteina  conseguida...")
-        
-        
+
+        Proteina = [p.replace(",", "").replace("g", "") for p in Proteina]
+        Grasa = [g.replace(",", "").replace("g", "") for g in Grasa]
+        Carbohidrato = [c.replace(",", "").replace("g", "") for c in Carbohidrato]
+        Caloria = [c.replace("kcal", "") for c in Caloria]
+        Cantidad = [c.split('(')[-1].replace(")", "").replace("g", "") for c in Cantidad]
+
+
         if not Tabla_Nutricional_Productos.empty:
-            columnas = ["Producto","Marca","Cantidad","Caloria","Grasa","Carbohidrato","Proteina"]
+            columnas = ["Producto","Marca","Cantidad(g)","Caloria(kcal)","Grasa(g)","Carbohidrato(g)","Proteina(g)"]
             data_ = list(zip(Producto, Marca, Cantidad, Caloria, Grasa, Carbohidrato, Proteina))
             df = pd.DataFrame(columns=columnas,data=data_)
             Tabla_Nutricional_Productos = pd.concat([Tabla_Nutricional_Productos,df],ignore_index=True)
         else:
-            columnas = ["Producto","Marca","Cantidad","Caloria","Grasa","Carbohidrato","Proteina"]
+            columnas = ["Producto","Marca","Cantidad(g)","Caloria(kcal)","Grasa(g)","Carbohidrato(g)","Proteina(g)"]
             data_ = list(zip(Producto, Marca, Cantidad, Caloria, Grasa, Carbohidrato, Proteina))
             Tabla_Nutricional_Productos = pd.DataFrame(columns=columnas,data=data_)
 
