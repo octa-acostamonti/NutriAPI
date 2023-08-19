@@ -68,11 +68,11 @@ database.py:
 models.py:
    * Creates the models of the tables that are hosted in PostgreSQL for the API
 
-main.py changes: \n
-   * Created a connection with the PostgreSQL that contains the information of the products for the API \n
-   * Created the dependency to call the database when requested \n
-   * Created the "proteinas" endpoint which gives: "producto", "marca", "proteina" and "cantidad" \n
-   * Created the "grasas" endpoint which gives: "producto", "marca", "grasa" and "cantidad" \n
-   * Created the "carbohidratos" endpoint which gives: "producto", "marca", "carbohidrato" and "cantidad" \n
-   * Created the "productos" endpoint which gives: "id","producto", "marca", "cantidad" ,"grasa", "carbohidratos" and "proteina" \n
-   * Created the "sqlalchemytest" endpoint which is a test for the conection to the database \n
+main.py changes: 
+   * Created a connection with the PostgreSQL that contains the information of the products for the API 
+   * Created the dependency to call the database when requested 
+   * Created the "proteinas" endpoint which gives: "producto", "marca", "proteina" and "cantidad" 
+   * Created the "grasas" endpoint which gives: "producto", "marca", "grasa" and "cantidad" 
+   * Created the "carbohidratos" endpoint which gives: "producto", "marca", "carbohidrato" and "cantidad" 
+   * Created the "productos" endpoint which gives: "id","producto", "marca", "cantidad" ,"grasa", "carbohidratos" and "proteina" 
+   * Created the "sqlalchemytest" endpoint which is a test for the conection to the database 
