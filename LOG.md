@@ -51,3 +51,28 @@ I added a normalization part to the code so that the outputed CSV has clear data
 * Modified NutriAPI.py with the normalization code
 * Modified NutriAPI.ipynb, where I practiced the code to clean the rows
 * The CSV got modified due to the changes in the code
+
+18/8/2023
+
+Modified README to latter explain the API
+
+19/8/2023
+
+* Added database.py to the app folder
+* Added models.py to the app folder
+* Modified main.py file in the app folder
+
+database.py:
+    Creates the connection to the PostgreSQL database that contains the information of the products for the API
+
+models.py:
+    Creates the models of the tables that are hosted in PostgreSQL for the API
+
+main.py changes:
+    * Created a connection with the PostgreSQL that contains the information of the products for the API
+    * Created the dependency to call the database when requested
+    * Created the "proteinas" endpoint which gives: "producto", "marca", "proteina" and "cantidad"
+    * Created the "grasas" endpoint which gives: "producto", "marca", "grasa" and "cantidad"
+    * Created the "carbohidratos" endpoint which gives: "producto", "marca", "carbohidrato" and "cantidad"
+    * Created the "productos" endpoint which gives: "id","producto", "marca", "cantidad" ,"grasa", "carbohidratos" and "proteina"
+    * Created the "sqlalchemytest" endpoint which is a test for the conection to the database
