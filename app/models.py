@@ -10,7 +10,7 @@ class Productos(Base):
     producto = Column(String)
     marca = Column(String)
     cantidad = Column(String)
-    caloria_g = Column(Integer)
+    caloria_kcal = Column(Integer)
     grasa_g = Column(Float)
     carbohidrato_g = Column(Float)
     proteina_g = Column(Float)
