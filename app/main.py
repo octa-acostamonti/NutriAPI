@@ -24,9 +24,10 @@ except Exception as e:
 async def root():
     return  ({"mi no bia":"e e e "})
 
-@app.get("/sqlalchemy")
+@app.get("/sqlalchemy_test")
 def test_conection(db: Session = Depends(get_db)):
-    return {"status":"success"}
+    productos = db.query(models.Productos).all()
+    return {"data":productos}
 
 @app.get("/proteinas/")
 def get_proteinas():
