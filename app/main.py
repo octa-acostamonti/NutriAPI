@@ -4,6 +4,8 @@ from psycopg2.extras import RealDictCursor
 from . import models
 from .database import engine, SessionLocal, get_db
 from sqlalchemy.orm import Session, load_only
+from schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
+from typing import List
 
 
 models.Base.metadata.create_all(bind=engine)
@@ -20,13 +22,14 @@ except Exception as e:
     print("The Error was: ",e)
 
 
+# Contuinar video 5:53:37
 @app.get("/")
 async def root():
-    return  ({"mi no bia":"e e e "})
+    return  "NutriAPI ©"
 
 
 
-@app.get("/proteinas/")
+@app.get("/proteinas/", response_model=List[ResponseProteina])
 def get_proteinas(db: Session = Depends(get_db)):
     
     # cursor.execute("""SELECT producto,marca,proteina_g,cantidad FROM productos """)
@@ -34,10 +37,10 @@ def get_proteinas(db: Session = Depends(get_db)):
     
     proteina = db.query(models.Productos).options(load_only("producto", "marca", "proteina_g", "cantidad")).all()
     
-    return {"proteinas":proteina}
+    return proteina
 
 
-@app.get("/grasas/")
+@app.get("/grasas/", response_model=List[ResponseGrasa])
 def get_grasas(db: Session = Depends(get_db)):
     
     # cursor.execute("""SELECT producto,marca,grasa_g,cantidad FROM productos """)
@@ -45,10 +48,10 @@ def get_grasas(db: Session = Depends(get_db)):
     
     grasa = db.query(models.Productos).options(load_only("producto", "marca", "grasa_g", "cantidad")).all()
     
-    return {"grasas":grasa}
+    return grasa
 
 
-@app.get("/carbohidratos/")
+@app.get("/carbohidratos/",response_model=List[ResponseCarbohidratos])
 def get_carbohidratos(db: Session = Depends(get_db)):
     
     # cursor.execute("""SELECT producto,marca,carbohidrato_g,cantidad FROM productos """)
@@ -56,10 +59,10 @@ def get_carbohidratos(db: Session = Depends(get_db)):
     
     carbohidratos = db.query(models.Productos).options(load_only("producto", "marca", "carbohidrato_g", "cantidad")).all()
     
-    return {"carbohidratos":carbohidratos}
+    return carbohidratos
 
 
-@app.get("/productos/")
+@app.get("/productos/", response_model=List[ResponseProductos])
 def get_productos(db: Session = Depends(get_db)):
     
     # cursor.execute("""SELECT * FROM productos""")
@@ -67,7 +70,7 @@ def get_productos(db: Session = Depends(get_db)):
     
     productos = db.query(models.Productos).all()
 
-    return {"data":productos}
+    return productos
 
 
 
