@@ -76,3 +76,9 @@ main.py changes:
    * Created the "carbohidratos" endpoint which gives: "producto", "marca", "carbohidrato" and "cantidad" 
    * Created the "productos" endpoint which gives: "id","producto", "marca", "cantidad" ,"grasa", "carbohidratos" and "proteina" 
    * Created the "sqlalchemytest" endpoint which is a test for the conection to the database 
+
+20/8/2023
+
+* Added schemas.py to the app folder
+* Modified models.py to better fit constrains
+* Modified the response of the endpoints using the schemas.py file
