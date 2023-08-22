@@ -7,6 +7,7 @@ from sqlalchemy import Integer, String, Float, Date
 
 class Productos(Base):
     """ Tabla 'productos' """
+    
     __tablename__ = "productos"
 
     id_producto = Column(Integer,primary_key=True,nullable=False)
@@ -20,6 +21,7 @@ class Productos(Base):
 
 class Requests(Base):
     """ Tabla 'requests' """
+
     __tablename__="requests"
 
     id_request = Column(Integer,primary_key=True,nullable=False)
