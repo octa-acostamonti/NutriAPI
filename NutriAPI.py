@@ -1,38 +1,22 @@
-"""
-
-IMPORTAMOS LAS LIBRERIAS NECESARIAS
-
-"""
-
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
-"""
 
-DEFINIR VARIABLE PARA CONSEGUIR TODAS LAS URLS DE LA PÁGINA
+URLS = []
 
-"""
-# Lista vacia que contenga todas las URLS de la página
-URLS = [] 
+URL_BASE = "https://www.fatsecret.com.ar/calor%C3%ADas-nutrici%C3%B3n/search?q=9+de+Oro&pg=" 
 
-# Definimos la URL_BASE, la cual es la misma para todas las paginas
-URL_BASE = "https://www.fatsecret.com.ar/calor%C3%ADas-nutrici%C3%B3n/search?q=9+de+Oro&pg=" # Definimos la URL_BASE, la cual es la misma para todas las paginas
 
-# Hacemos un loop que agregue a la URL_BASE el numero de página.
 for num in range(0,271):
 
     URL = URL_BASE + str(num) 
-    URLS.append(URL) # Agregamos a la lista vacia las URLS de todas las página
+    URLS.append(URL) 
 
-"""
-CREAMOS EL DATAFRAME QUE CONTENERA LOS PRODUCTOS
-"""
+
 Tabla_Nutricional_Productos = pd.DataFrame()
 
-"""
-LOOP PRINCIPAL PARA CONSEGUIR LA INFORMACIÓN NUTRICIONAL
-"""
+
 def main():
     global Tabla_Nutricional_Productos
     
@@ -52,6 +36,22 @@ def main():
         Marca = [caracter.text.replace("(","").replace(")","") if len(caracter.text) > 0 else None for caracter in Marcas]
         print("Marca conseguida...")
         
+        # Chequear si se puede mejorar este codigo. La 'class_' es la misma para las 4 propiedades, por lo que quiza pueda hacer algo como:
+        """ 
+        Productos = tabla.find_all('div',class_='smallText greyText greyLink')
+        
+        Cantidades = [cantidad.text.replace(...) for cantidad in Productos]
+
+        Calorias = [caloria.text.replace(...) for caloria in Productos]
+
+        Grasas = [grasa.text.replace(...) for grasa in Productos]
+
+        Carbohidratos = [carbohidrato.text.replace(...) for carbohidrato in Productos]
+
+        Proteinas = [proteina.text.replace(...) for proteina in Productos]
+        
+        """
+
         Cantidades = tabla.find_all("div",class_="smallText greyText greyLink")
         Cantidad = [caracter.text.replace("\r", "").replace("\n", "").replace("\t", "").split("-", 1)[0] for caracter in Cantidades]
         print("Cantidad  conseguida...")   
