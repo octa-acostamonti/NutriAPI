@@ -7,17 +7,25 @@ from sqlalchemy.orm import Session, load_only
 from schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
 from typing import List
 
-
+""" Creacion de las tablas en PostgreSQL a partir de los modelos en 'models.py' """
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
+
 try:
+    
+    """ Conexion a PostgreSQL utilizando el driver psycopg2 """
+
     conn = psycopg2.connect(host="localhost",database="NutriAPI",user="postgres",
     password="root",cursor_factory=RealDictCursor)
+    
     cursor = conn.cursor()
+    
     print("Database conection was succesfull!")
+
 except Exception as e:
+
     print("Conection to database failed")
     print("The Error was: ",e)
 
@@ -31,9 +39,7 @@ async def root():
 
 @app.get("/proteinas/", response_model=List[ResponseProteina])
 def get_proteinas(db: Session = Depends(get_db)):
-    
-    # cursor.execute("""SELECT producto,marca,proteina_g,cantidad FROM productos """)
-    # proteina = cursor.fetchall()
+    """ Conseguir las proteinas de todos los productos """
     
     proteina = db.query(models.Productos).options(load_only("producto", "marca", "proteina_g", "cantidad")).all()
     
@@ -42,9 +48,7 @@ def get_proteinas(db: Session = Depends(get_db)):
 
 @app.get("/grasas/", response_model=List[ResponseGrasa])
 def get_grasas(db: Session = Depends(get_db)):
-    
-    # cursor.execute("""SELECT producto,marca,grasa_g,cantidad FROM productos """)
-    # grasa = cursor.fetchall()
+    """ Conseguir las grasas de todos los productos """
     
     grasa = db.query(models.Productos).options(load_only("producto", "marca", "grasa_g", "cantidad")).all()
     
@@ -53,9 +57,7 @@ def get_grasas(db: Session = Depends(get_db)):
 
 @app.get("/carbohidratos/",response_model=List[ResponseCarbohidratos])
 def get_carbohidratos(db: Session = Depends(get_db)):
-    
-    # cursor.execute("""SELECT producto,marca,carbohidrato_g,cantidad FROM productos """)
-    # carbohidrato = cursor.fetchall()
+    """ Conseguir los carbohidratos de todos los productos """
     
     carbohidratos = db.query(models.Productos).options(load_only("producto", "marca", "carbohidrato_g", "cantidad")).all()
     
@@ -64,10 +66,8 @@ def get_carbohidratos(db: Session = Depends(get_db)):
 
 @app.get("/productos/", response_model=List[ResponseProductos])
 def get_productos(db: Session = Depends(get_db)):
-    
-    # cursor.execute("""SELECT * FROM productos""")
-    # producto = cursor.fetchall()
-    
+    """ Conseguir todos los productos """
+
     productos = db.query(models.Productos).all()
 
     return productos
