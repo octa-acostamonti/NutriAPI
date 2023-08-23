@@ -6,7 +6,7 @@ from sqlalchemy import Integer, String, Float, Date
 
 
 class Productos(Base):
-    """ Tabla 'productos' """
+    """ Crear Tabla 'productos' """
     
     __tablename__ = "productos"
 
@@ -20,7 +20,7 @@ class Productos(Base):
     proteina_g = Column(Float)
 
 class Requests(Base):
-    """ Tabla 'requests' """
+    """ Crear Tabla 'requests' """
 
     __tablename__="requests"
 
