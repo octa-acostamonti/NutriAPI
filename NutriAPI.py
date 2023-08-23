@@ -35,22 +35,6 @@ def main():
         Marcas = tabla.find_all("a",class_="brand")
         Marca = [caracter.text.replace("(","").replace(")","") if len(caracter.text) > 0 else None for caracter in Marcas]
         print("Marca conseguida...")
-        
-        # Chequear si se puede mejorar este codigo. La 'class_' es la misma para las 4 propiedades, por lo que quiza pueda hacer algo como:
-        """ 
-        Productos = tabla.find_all('div',class_='smallText greyText greyLink')
-        
-        Cantidades = [cantidad.text.replace(...) for cantidad in Productos]
-
-        Calorias = [caloria.text.replace(...) for caloria in Productos]
-
-        Grasas = [grasa.text.replace(...) for grasa in Productos]
-
-        Carbohidratos = [carbohidrato.text.replace(...) for carbohidrato in Productos]
-
-        Proteinas = [proteina.text.replace(...) for proteina in Productos]
-        
-        """
 
         Cantidades = tabla.find_all("div",class_="smallText greyText greyLink")
         Cantidad = [caracter.text.replace("\r", "").replace("\n", "").replace("\t", "").split("-", 1)[0] for caracter in Cantidades]
@@ -94,12 +78,12 @@ def main():
             Tabla_Nutricional_Productos = pd.DataFrame(columns=columnas,data=data_)
 
     
-    print(Tabla_Nutricional_Productos.head(4))
+    
     Tabla_Nutricional_Productos["Caloria(kcal)"] = Tabla_Nutricional_Productos["Caloria(kcal)"].astype("Int64")
     Tabla_Nutricional_Productos["Grasa(g)"] = Tabla_Nutricional_Productos["Grasa(g)"].astype("Float64")
     Tabla_Nutricional_Productos["Carbohidrato(g)"] = Tabla_Nutricional_Productos["Carbohidrato(g)"].astype("Float64")
     Tabla_Nutricional_Productos["Proteina(g)"] = Tabla_Nutricional_Productos["Proteina(g)"].astype("Float64")
-    print(Tabla_Nutricional_Productos.head(4))
+
     return Tabla_Nutricional_Productos.to_csv("Tabla_Nutricional_Productos.csv")
 
 
