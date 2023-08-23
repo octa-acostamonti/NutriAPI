@@ -82,3 +82,9 @@ main.py changes:
 * Added schemas.py to the app folder
 * Modified models.py to better fit constrains
 * Modified the response of the endpoints using the schemas.py file
+
+23/8/2023
+
+* Added config.py file
+* Modified database.py using config.py
+* Modified .gitignore
