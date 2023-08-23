@@ -4,7 +4,7 @@ from psycopg2.extras import RealDictCursor
 from . import models
 from .database import engine, SessionLocal, get_db
 from sqlalchemy.orm import Session, load_only
-from schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
+from .schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
 from typing import List
 
 """ Creacion de las tablas en PostgreSQL a partir de los modelos en 'models.py' """
@@ -30,7 +30,7 @@ except Exception as e:
     print("The Error was: ",e)
 
 
-# Contuinar video 5:53:37
+# Contuinar video 8:24:25
 @app.get("/")
 async def root():
     return  "NutriAPI ©"

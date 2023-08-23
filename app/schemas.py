@@ -7,7 +7,7 @@ class Response(BaseModel):
     marca: str
     cantidad: str
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class ResponseProteina(Response):
@@ -24,9 +24,10 @@ class ResponseCarbohidratos(Response):
 
 class ResponseProductos(Response):
     """ Configuracion de la respuesta de los productos con herencia de la respuesta base """
-    id:int
+    id_producto:int
+    caloria_kcal:int
     proteina_g: float
     grasa_g: float
-    carbohidratos:float
+    carbohidrato_g:float
 
 

@@ -1,12 +1,10 @@
 from .database import Base
-from datetime import datetime
-from sqlalchemy import Column
-
-from sqlalchemy import Integer, String, Float, Date
+from sqlalchemy import Column, ForeignKey
+from sqlalchemy import Integer, String, Float, TIMESTAMP, text
 
 
 class Productos(Base):
-    """ Tabla 'productos' """
+    """ Crear Tabla 'productos' """
     
     __tablename__ = "productos"
 
@@ -20,11 +18,11 @@ class Productos(Base):
     proteina_g = Column(Float)
 
 class Requests(Base):
-    """ Tabla 'requests' """
+    """ Crear Tabla 'requests' """
 
     __tablename__="requests"
 
     id_request = Column(Integer,primary_key=True,nullable=False)
-    requested_at = Column(Date)
+    requested_at = Column(TIMESTAMP(timezone=True),nullable=False,server_default=text("now()"))
+    id_producto = Column(Integer, ForeignKey("productos.id_producto"),nullable=False)
 
-    # AÑADIR FOREIGNKEY id_productos
