@@ -30,7 +30,6 @@ except Exception as e:
     print("The Error was: ",e)
 
 
-# Contuinar video 8:24:25
 @app.get("/")
 async def root():
     return  "NutriAPI ©"
