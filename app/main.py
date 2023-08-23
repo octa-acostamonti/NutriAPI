@@ -4,7 +4,7 @@ from psycopg2.extras import RealDictCursor
 from . import models
 from .database import engine, SessionLocal, get_db
 from sqlalchemy.orm import Session, load_only
-from schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
+from .schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
 from typing import List
 
 """ Creacion de las tablas en PostgreSQL a partir de los modelos en 'models.py' """
