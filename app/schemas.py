@@ -7,7 +7,7 @@ class Response(BaseModel):
     marca: str
     cantidad: str
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class ResponseProteina(Response):
