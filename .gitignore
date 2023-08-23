@@ -1,3 +1,5 @@
 fastapi/
 
 __pycache__
+
+.env
