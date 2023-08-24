@@ -7,27 +7,11 @@ from sqlalchemy.orm import Session, load_only
 from .schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
 from typing import List
 
-""" Creacion de las tablas en PostgreSQL a partir de los modelos en 'models.py' """
+""" Creacion de las tablas y conexión a PostgreSQL a partir de los modelos en 'models.py' """
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-
-try:
-    
-    """ Conexion a PostgreSQL utilizando el driver psycopg2 """
-
-    conn = psycopg2.connect(host="localhost",database="NutriAPI",user="postgres",
-    password="root",cursor_factory=RealDictCursor)
-    
-    cursor = conn.cursor()
-    
-    print("Database conection was succesfull!")
-
-except Exception as e:
-
-    print("Conection to database failed")
-    print("The Error was: ",e)
 
 
 @app.get("/")
