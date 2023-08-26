@@ -1,11 +1,11 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-from .carga_datos import carga
+from carga_datos import carga
 
 Tabla_Nutricional_Productos = pd.DataFrame()
 
-async def conseguir_urls():
+def conseguir_urls():
     """ Conseguir las URLS de la página fatsecret.com.ar y almacenarlas en una lista """
     
     URLS = []
@@ -18,7 +18,7 @@ async def conseguir_urls():
         URLS.append(URL) 
     return URLS
 
-async def extraer_info_nutricional(URLS):
+def extraer_info_nutricional(URLS):
     todos_productos = []
     for url in URLS:
         page = requests.get(url)
@@ -30,7 +30,7 @@ async def extraer_info_nutricional(URLS):
         return todos_productos
     
 
-async def main():
+def main():
     global Tabla_Nutricional_Productos
     
     URLS = conseguir_urls()
@@ -98,13 +98,13 @@ async def main():
     Tabla_Nutricional_Productos["Grasa(g)"] = Tabla_Nutricional_Productos["Grasa(g)"].astype("Float64")
     Tabla_Nutricional_Productos["Carbohidrato(g)"] = Tabla_Nutricional_Productos["Carbohidrato(g)"].astype("Float64")
     Tabla_Nutricional_Productos["Proteina(g)"] = Tabla_Nutricional_Productos["Proteina(g)"].astype("Float64")
-    
+    carga("productos",Tabla_Nutricional_Productos)
 
     return Tabla_Nutricional_Productos.to_csv("Tabla_Nutricional_Productos.csv")
 
 
 if __name__ == "__main__":
     main()
-    carga("productos",Tabla_Nutricional_Productos)
+    
 
 
