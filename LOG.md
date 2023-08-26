@@ -114,4 +114,4 @@ __'extraer.py'__:
    * Puts aside the extraction and transformation part of the code
 
 __'main.py'__: 
-   * Cleaned up so its more readble
+   > Cleaned up so its more readble
