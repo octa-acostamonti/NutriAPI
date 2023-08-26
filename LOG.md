@@ -54,7 +54,7 @@ I added a normalization part to the code so that the outputed CSV has clear data
 
 18/8/2023
 
-Modified README to latter explain the API
+Modified README to later explain the API
 
 19/8/2023
 
