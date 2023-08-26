@@ -1,11 +1,17 @@
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from app.models import Productos
+from app.database import SessionLocal
+from app.config import settings
+
 import requests
 import time
 import pandas as pd
 from bs4 import BeautifulSoup
-from app.config import settings
 from  sqlalchemy import create_engine
-from app.models import Productos
-from app.database import  SessionLocal
 
 
 def conseguir_urls():
