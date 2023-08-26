@@ -8,26 +8,24 @@ from app.database import SessionLocal, engine
 from sqlalchemy.exc import IntegrityError
 
 
-def carga(table_name, df):
+def carga(nombre_tabla, df):
     try:
         
         engine
-
-        
         
         session = SessionLocal()
 
         
-        for index, row in df.iterrows():
+        for index, fila in df.iterrows():
             producto = Productos(
                 id_producto=index,
-                producto=row['Producto'],
-                marca=row['Marca'],
-                cantidad=row['Cantidad(g)'],
-                caloria_kcal=row['Caloria(kcal)'],
-                grasa_g=row['Grasa(g)'],
-                carbohidrato_g=row['Carbohidrato(g)'],
-                proteina_g=row['Proteina(g)']
+                producto=fila['Producto'],
+                marca=fila['Marca'],
+                cantidad=fila['Cantidad(g)'],
+                caloria_kcal=fila['Caloria(kcal)'],
+                grasa_g=fila['Grasa(g)'],
+                carbohidrato_g=fila['Carbohidrato(g)'],
+                proteina_g=fila['Proteina(g)']
             )
             session.add(producto)
 
@@ -39,7 +37,7 @@ def carga(table_name, df):
             
     
     except Exception as error:
-        print("Failed to insert records into", table_name, error)
+        print("Error al insertar las filas", nombre_tabla, error)
 
     finally:
         
