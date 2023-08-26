@@ -88,3 +88,13 @@ main.py changes:
 * Added config.py file
 * Modified database.py using config.py
 * Modified .gitignore
+
+25/8/2023
+
+* Added scraper folder
+* Moved NutriAPI.py, NutriAPI.ipynb and Tabla_Nutricional_Productos.csv to scraper folder
+* Added carga_datos.py
+
+carga_datos.py:
+   * Generates a conection to PostreSQL
+   * Has a function to conect to the database and upload the data automaticly
