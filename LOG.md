@@ -113,3 +113,4 @@ __'extraer.py'__:
 
 __'main.py'__: 
    > * Cleaned up so its more readble
+   > * Added Middleware CORS protocl to accept all origins
