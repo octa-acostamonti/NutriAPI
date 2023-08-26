@@ -62,13 +62,13 @@ Modified README to later explain the API
 * Added models.py to the app folder
 * Modified main.py file in the app folder
 
-database.py:
+__'database'__.py:
    * Creates the connection to the PostgreSQL database that contains the information of the products for the API
 
-models.py:
+__'models'__.py:
    * Creates the models of the tables that are hosted in PostgreSQL for the API
 
-main.py changes: 
+__'main.py'__ changes: 
    * Created a connection with the PostgreSQL that contains the information of the products for the API 
    * Created the dependency to call the database when requested 
    * Created the "proteinas" endpoint which gives: "producto", "marca", "proteina" and "cantidad" 
@@ -93,13 +93,25 @@ main.py changes:
 
 * Added scraper folder
 * Moved NutriAPI.py, NutriAPI.ipynb and Tabla_Nutricional_Productos.csv to scraper folder
-* Added carga_datos.py
+* Added carga_datos.py to the scraper folder
 
-carga_datos.py:
+__'carga_datos.py'__:
    * Generates a conection to PostreSQL
    * Has a function to conect to the database and upload the data automaticly
 
 26/8/2023
 
-* Renamed 'NutriAPI.py' to 'main.py'
-* Renamed 'carga_datos.py' to 'carga.py'
+* Renamed 'NutriAPI.py' to 'main.py' in the scraper folder
+* Renamed 'carga_datos.py' to 'carga.py' in the scraper folder
+* Added 'utils.py' to the scraper folder
+* Added 'extraer.py' to the scraper folder
+* Modified 'main.py' in the scraper folder
+
+__'utils.py'__:
+   * Conserves some utility code, like getting the URLS
+
+__'extraer.py'__:
+   * Puts aside the extraction and transformation part of the code
+
+__'main.py'__: 
+   * Cleaned up so its more readble
