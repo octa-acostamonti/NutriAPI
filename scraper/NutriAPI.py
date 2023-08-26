@@ -4,14 +4,15 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.models import Productos
-from app.database import SessionLocal
+from app.database import SessionLocal, engine
 from app.config import settings
 
 import requests
 import time
 import pandas as pd
 from bs4 import BeautifulSoup
-from  sqlalchemy import create_engine
+from sqlalchemy.exc import IntegrityError
+
 
 
 def conseguir_urls():
@@ -104,14 +105,14 @@ def main():
 
 def carga(table_name, df):
     try:
-        # Create a database engine
-        engine = create_engine(f"postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}:{settings.database_port}/{settings.database_name}")
+        
+        engine
 
-        # Create a session
+        
         
         session = SessionLocal()
 
-        # Convert DataFrame rows to model instances and add to the session
+        
         for index, row in df.iterrows():
             producto = Productos(
                 id_producto=index,
@@ -125,15 +126,18 @@ def carga(table_name, df):
             )
             session.add(producto)
 
-        # Commit the changes to the database
-        session.commit()
-        print("Records inserted successfully into", table_name)
-
+        try:
+            session.add(producto)
+            session.commit() 
+        except IntegrityError as e:
+            session.rollback()  
+            
+    
     except Exception as error:
         print("Failed to insert records into", table_name, error)
 
     finally:
-        # Close the session
+        
         if session:
             session.close()
 
