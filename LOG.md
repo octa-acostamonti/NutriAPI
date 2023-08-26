@@ -98,3 +98,8 @@ main.py changes:
 carga_datos.py:
    * Generates a conection to PostreSQL
    * Has a function to conect to the database and upload the data automaticly
+
+26/8/2023
+
+* Renamed 'NutriAPI.py' to 'main.py'
+* Renamed 'carga_datos.py' to 'carga.py'
