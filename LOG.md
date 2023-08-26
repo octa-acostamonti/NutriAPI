@@ -42,7 +42,7 @@ Started with the creation of the API using the Python framework FastAPI.
 
 * Added app folder 
 * Created main.py file 
-* Created _ _init__.py file
+* Created __init__.py file
 
 17/8/2023
 
