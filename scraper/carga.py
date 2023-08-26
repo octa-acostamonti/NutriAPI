@@ -32,8 +32,10 @@ def carga(nombre_tabla, df):
         try:
             session.add(producto)
             session.commit() 
+            print("Datos ingestados correctamente!")
         except IntegrityError as e:
             session.rollback()  
+            print("Datos duplicados")
             
     
     except Exception as error:
