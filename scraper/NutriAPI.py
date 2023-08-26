@@ -1,17 +1,7 @@
-import sys
-import os
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from app.models import Productos
-from app.database import SessionLocal, engine
-from app.config import settings
-
 import requests
-import time
 import pandas as pd
 from bs4 import BeautifulSoup
-from sqlalchemy.exc import IntegrityError
+from .carga_datos import carga
 
 
 
@@ -33,7 +23,7 @@ Tabla_Nutricional_Productos = pd.DataFrame()
 
 def main():
     global Tabla_Nutricional_Productos
-    time_start = time.time()
+    
     URLS = conseguir_urls()
     for url in URLS:
     
@@ -99,47 +89,9 @@ def main():
     Tabla_Nutricional_Productos["Grasa(g)"] = Tabla_Nutricional_Productos["Grasa(g)"].astype("Float64")
     Tabla_Nutricional_Productos["Carbohidrato(g)"] = Tabla_Nutricional_Productos["Carbohidrato(g)"].astype("Float64")
     Tabla_Nutricional_Productos["Proteina(g)"] = Tabla_Nutricional_Productos["Proteina(g)"].astype("Float64")
-    time_elapsed = time.time() - time_start
-    print(f"Time elapsed was:{time_elapsed:.2f}")
-    return Tabla_Nutricional_Productos.to_csv("Tabla_Nutricional_Productos.csv")
-
-def carga(table_name, df):
-    try:
-        
-        engine
-
-        
-        
-        session = SessionLocal()
-
-        
-        for index, row in df.iterrows():
-            producto = Productos(
-                id_producto=index,
-                producto=row['Producto'],
-                marca=row['Marca'],
-                cantidad=row['Cantidad(g)'],
-                caloria_kcal=row['Caloria(kcal)'],
-                grasa_g=row['Grasa(g)'],
-                carbohidrato_g=row['Carbohidrato(g)'],
-                proteina_g=row['Proteina(g)']
-            )
-            session.add(producto)
-
-        try:
-            session.add(producto)
-            session.commit() 
-        except IntegrityError as e:
-            session.rollback()  
-            
     
-    except Exception as error:
-        print("Failed to insert records into", table_name, error)
 
-    finally:
-        
-        if session:
-            session.close()
+    return Tabla_Nutricional_Productos.to_csv("Tabla_Nutricional_Productos.csv")
 
 
 if __name__ == "__main__":
