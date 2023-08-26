@@ -3,7 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from .carga_datos import carga
 
-
+Tabla_Nutricional_Productos = pd.DataFrame()
 
 def conseguir_urls():
     """ Conseguir las URLS de la página fatsecret.com.ar y almacenarlas en una lista """
@@ -17,8 +17,6 @@ def conseguir_urls():
         URL = URL_BASE + str(num) 
         URLS.append(URL) 
     return URLS
-
-Tabla_Nutricional_Productos = pd.DataFrame()
 
 
 def main():
