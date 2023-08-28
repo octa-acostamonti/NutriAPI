@@ -32,11 +32,11 @@
 * Added the new NutriAPI.py File
 * Added the new Tabla_Nutricion_Productos CSV file
 
-All of this changes were comitted to enhance the code and put into action better coding practices.
+* All of this changes were comitted to enhance the code and put into action better coding practices.
 ---
 ### 16/8/2023
 
-Started with the creation of the API using the Python framework FastAPI.
+* Started with the creation of the API using the Python framework FastAPI.
 
 * Added app folder 
 * Created main.py file 
@@ -44,7 +44,7 @@ Started with the creation of the API using the Python framework FastAPI.
 ---
 ### 17/8/2023
 
-I added a normalization part to the code so that the outputed CSV has clear datatypes.
+* I added a normalization part to the code so that the outputed CSV has clear datatypes.
 
 * Modified NutriAPI.py with the normalization code
 * Modified NutriAPI.ipynb, where I practiced the code to clean the rows
@@ -52,7 +52,7 @@ I added a normalization part to the code so that the outputed CSV has clear data
 ---
 ### 18/8/2023
 
-Modified README to later explain the API
+* Modified README to later explain the API
 ---
 ### 19/8/2023
 
@@ -60,10 +60,10 @@ Modified README to later explain the API
 * Added models.py to the app folder
 * Modified main.py file in the app folder
 
-__'database'__.py:
+__'database.py'__:
    > * Creates the connection to the PostgreSQL database that contains the information of the products for the API
 
-__'models'__.py:
+__'models.py'__:
    > * Creates the models of the tables that are hosted in PostgreSQL for the API
 
 __'main.py'__ changes: 
@@ -113,3 +113,4 @@ __'extraer.py'__:
 
 __'main.py'__: 
    > * Cleaned up so its more readble
+   > * Added Middleware CORS protocl to accept all origins

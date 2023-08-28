@@ -1,8 +1,7 @@
 from fastapi import FastAPI, Depends
-import psycopg2
-from psycopg2.extras import RealDictCursor
+from fastapi.middleware.cors import CORSMiddleware
 from . import models
-from .database import engine, SessionLocal, get_db
+from .database import engine,get_db
 from sqlalchemy.orm import Session, load_only
 from .schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
 from typing import List
@@ -11,7 +10,13 @@ from typing import List
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["GET"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/")
