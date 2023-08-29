@@ -114,7 +114,7 @@ __'extraer.py'__:
 __'main.py'__: 
    > * Cleaned up so its more readble
    > * Added Middleware CORS protocl to accept all origins
-
+---
 ### 28/8/2023
 
 * Modified extraer.py
@@ -126,7 +126,7 @@ __'extraer.py'__:
    > * Added comments
 __'utils.py'__:
    > * Modified the limit in conseguir_url function
-
+---
 ### 29/8/2023
 
 * Modified 'carga.py' in the scraper folder
