@@ -126,3 +126,12 @@ __'extraer.py'__:
    > * Added comments
 __'utils.py'__:
    > * Modified the limit in conseguir_url function
+
+### 29/8/2023
+
+* Modified 'carga.py' in the scraper folder
+* Removed 'Tabla_Nutricional_Productos.csv'
+__'carga.py'__:
+   > * Added comments
+
+
