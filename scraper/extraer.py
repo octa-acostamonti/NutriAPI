@@ -32,7 +32,7 @@ def extraer_info_nutricional(URLS: list):
 
         info_nutricional = tabla.find_all("div", class_="smallText greyText greyLink")
         
-        for producto, marca, info in zip(productos, marcas, nutritional_info):
+        for producto, marca, info in zip(productos, marcas, info_nutricional):
             info_texto = info.text.replace("\r", "").replace("\n", "").replace("\t", "") # replace unnecesary text
             info_partes = info_texto.split("|") # split categories by '|'
 
