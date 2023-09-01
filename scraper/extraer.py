@@ -30,7 +30,7 @@ def extraer_info_nutricional(URLS: list):
 
         # The amount, calories, fat, carbs and protein are in the same tag and same class so, we only extract the info once
 
-        nutritional_info = tabla.find_all("div", class_="smallText greyText greyLink")
+        info_nutricional = tabla.find_all("div", class_="smallText greyText greyLink")
         
         for producto, marca, info in zip(productos, marcas, nutritional_info):
             info_texto = info.text.replace("\r", "").replace("\n", "").replace("\t", "") # replace unnecesary text
