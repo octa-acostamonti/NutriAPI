@@ -2,7 +2,7 @@
 
 | Information  | 
 | ------------- | 
-| This is an API that provides nutritional information of food products from the main food distributors in Argentina.
+| This is a public open-source API that provides nutritional information of food products from the main food distributors in Argentina.
  The information was scraped from fatsecret.com.ar | 
 
 #### Documentation
