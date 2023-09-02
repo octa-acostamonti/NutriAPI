@@ -11,3 +11,5 @@
 #### How to use?
 
 ## PROCESS
+
+I first analized the supermarket industrie 
