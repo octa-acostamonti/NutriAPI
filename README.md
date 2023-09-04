@@ -16,6 +16,24 @@ The primary purpose of this project is to be able to provide customers in Argent
 
 - Education: Educate consumers about the nutritional content of food items, enabling them to make healthier dietary decisions.
 
+## Table of Contents
+
+1. [Description](#description)
+2. [Usage](#usage)
+3. [Getting Started](#getting-started)
+4. [API Documentation](#api-documentation)
+5. [Data Sources](#data-sources)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Support and Contact](#support-and-contact)
+9. [Acknowledgments](#acknowledgments)
+10. [Roadmap](#roadmap)
+
+
+
+
+
+
 #### Documentation
 
 
