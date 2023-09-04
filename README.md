@@ -43,14 +43,3 @@ The primary purpose of this project is to be able to provide customers in Argent
 # Acknowledgments
 
 # Roadmap
-
-
-
-
-#### Documentation
-
-
-#### How to use?
-
-## PROCESS
-
