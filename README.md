@@ -23,13 +23,26 @@ The primary purpose of this project is to be able to provide customers in Argent
 3. [Getting Started](#getting-started)
 4. [API Documentation](#api-documentation)
 5. [Data Sources](#data-sources)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Support and Contact](#support-and-contact)
-9. [Acknowledgments](#acknowledgments)
-10. [Roadmap](#roadmap)
+6. [License](#license)
+7. [Support and Contact](#support-and-contact)
+8. [Acknowledgments](#acknowledgments)
+9. [Roadmap](#roadmap)
 
+# Usage
 
+# Getting Started
+
+# API Documentation
+
+# Data Source
+
+# License
+
+# Support and Contact
+
+# Acknowledgments
+
+# Roadmap
 
 
 
