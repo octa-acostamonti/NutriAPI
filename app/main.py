@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session, load_only
 from .schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
 from typing import List
 
-""" Creacion de las tablas y conexión a PostgreSQL a partir de los modelos en 'models.py' """
+# Creation of the tables and conection to PostgreSQL through the models in 'models.py'
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
@@ -27,7 +27,7 @@ async def root():
 
 @app.get("/proteinas/", response_model=List[ResponseProteina])
 def get_proteinas(db: Session = Depends(get_db)):
-    """ Conseguir las proteinas de todos los productos """
+    """ Get the proteins of all the products """
     
     proteina = db.query(models.Productos).options(load_only("producto", "marca", "proteina_g", "cantidad")).all()
     
@@ -36,7 +36,7 @@ def get_proteinas(db: Session = Depends(get_db)):
 
 @app.get("/grasas/", response_model=List[ResponseGrasa])
 def get_grasas(db: Session = Depends(get_db)):
-    """ Conseguir las grasas de todos los productos """
+    """ Get the fat of all the products """
     
     grasa = db.query(models.Productos).options(load_only("producto", "marca", "grasa_g", "cantidad")).all()
     
@@ -45,7 +45,7 @@ def get_grasas(db: Session = Depends(get_db)):
 
 @app.get("/carbohidratos/",response_model=List[ResponseCarbohidratos])
 def get_carbohidratos(db: Session = Depends(get_db)):
-    """ Conseguir los carbohidratos de todos los productos """
+    """ Get the carbs of all the products """
     
     carbohidratos = db.query(models.Productos).options(load_only("producto", "marca", "carbohidrato_g", "cantidad")).all()
     
@@ -54,7 +54,7 @@ def get_carbohidratos(db: Session = Depends(get_db)):
 
 @app.get("/productos/", response_model=List[ResponseProductos])
 def get_productos(db: Session = Depends(get_db)):
-    """ Conseguir todos los productos """
+    """ Get all the products """
 
     productos = db.query(models.Productos).all()
 
