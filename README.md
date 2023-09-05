@@ -40,6 +40,15 @@ The primary purpose of this project is to be able to provide customers in Argent
 
 # License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The MIT License is a permissive open-source license that allows you to use, modify, and distribute this software freely, subject to the following conditions:
+
+- You must include the original copyright notice and the MIT License text in any copies or substantial portions of the software.
+- The software is provided "as is," without warranties of any kind. The authors or copyright holders are not liable for any claims, damages, or other liabilities.
+
+For more details, please review the [MIT License](https://opensource.org/licenses/MIT).
+
 # Support and Contact
 
 # Acknowledgments
