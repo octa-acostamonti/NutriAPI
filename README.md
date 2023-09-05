@@ -51,6 +51,15 @@ For more details, please review the [MIT License](https://opensource.org/license
 
 # Support and Contact
 
+If you have any questions, suggestions, or need assistance with the Argentina Nutritional Facts API, please feel free to reach out. We're here to help and welcome your feedback.
+
+- **Email:** [acostamonti.business@gmail.com](mailto:acostamonti.business@gmail.com)
+- **GitHub Profile:** [octa-acostamonti](https://github.com/octa-acostamonti)
+- **Discord:** oc_ta
+- **LinkedIn:** [Octavio Acosta Monti](https://www.linkedin.com/in/octavio-acosta-monti-122814236/)
+
+We value your input and look forward to hearing from you. Join our community, report issues, contribute to the project, or simply say hello!
+
 # Acknowledgments
 
 # Roadmap
