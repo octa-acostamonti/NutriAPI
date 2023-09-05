@@ -30,8 +30,6 @@ The primary purpose of this project is to be able to provide customers in Argent
 
 # Usage
 
-
-
 # Getting Started
 
 # API Documentation
