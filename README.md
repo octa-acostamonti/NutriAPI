@@ -50,7 +50,7 @@ We have ambitious plans for the future of the Argentina Nutritional Facts API. O
 
 1. Frond-End Development: After the initial API launch, we plan to develop a user-friendly and visually appealing front-end interface. This will make it even easier for users to access and interact with the nutritional information.
 
-2. Nomralization of Nutritional Data: We recognize the importance of standardizing the nutritional data for ease of comparison. We intend to normalize the "cantidad" column to represent servings of 100g, ensuring consistency across all products. This will also involve adjusting the values for fat, carbs, and protein accordingly.
+2. Normalization of Nutritional Data: We recognize the importance of standardizing the nutritional data for ease of comparison. We intend to normalize the "cantidad" column to represent servings of 100g, ensuring consistency across all products. This will also involve adjusting the values for fat, carbs, and protein accordingly.
 
 3. Collaboration with Food Distribution Chains: Our ultimate goal is to collaborate with food distribution chains operating in Argentina. We will reach out to these chains to encourage them to include the nutrition fact table on their websites. This partnership will provide consumers with reliable information directly from the source, further promoting healthy food choices.
 
