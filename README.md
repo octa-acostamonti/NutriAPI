@@ -70,7 +70,7 @@ We value your input and look forward to hearing from you. Join our community, re
 
 The NutriAPI owes its existence to the inspiring conversations and invaluable insights gained from discussions with friends at the gym. These conversations sparked the idea to create a tool that empowers individuals to make healthier food choices through accessible nutritional information.
 
-We would also like to extend our appreciation to [Luis Calejo](https://www.youtube.com/c/memeabledata), whose enlightening content on nutrition in food, shared on YouTube, served as a source of inspiration and motivation for this project.
+We would also like to extend our appreciation to [Luis Calejo](https://www.youtube.com/c/memeabledata), whose enlightening content on Data Analysis, shared on YouTube, served as a source of inspiration and motivation for this project.
 
 We are grateful for the support, encouragement, and ideas that have shaped this initiative. It is our hope that this API contributes to a greater awareness of nutrition and fosters healthier eating habits among the community in Argentina and beyond.
 
