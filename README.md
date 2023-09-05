@@ -38,6 +38,12 @@ The primary purpose of this project is to be able to provide customers in Argent
 
 # Data Source
 
+The nutritional data provided by the NutriAPI is primarily sourced from [fatsecret.com.ar](https://www.fatsecret.com.ar). After an intensive search for reliable nutritional information, we found that fatsecret.com.ar offers comprehensive and accurate data for a wide range of food products available in Argentina.
+
+If you are aware of another reliable data source or have suggestions for improving the data quality and coverage, we welcome your input. Our goal is to provide the most accurate and up-to-date nutritional information possible to benefit our users and promote healthier food choices in Argentina.
+
+Please feel free to [contact us](#support-and-contact) if you have alternative data sources or suggestions to enhance the accuracy and comprehensiveness of our nutritional data.
+
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -51,7 +57,7 @@ For more details, please review the [MIT License](https://opensource.org/license
 
 # Support and Contact
 
-If you have any questions, suggestions, or need assistance with the Argentina Nutritional Facts API, please feel free to reach out. We're here to help and welcome your feedback.
+If you have any questions, suggestions, or need assistance with the NutriAPI, please feel free to reach out. We're here to help and welcome your feedback.
 
 - **Email:** [acostamonti.business@gmail.com](mailto:acostamonti.business@gmail.com)
 - **GitHub Profile:** [octa-acostamonti](https://github.com/octa-acostamonti)
@@ -64,7 +70,7 @@ We value your input and look forward to hearing from you. Join our community, re
 
 # Roadmap
 
-We have ambitious plans for the future of the Argentina Nutritional Facts API. Our goal is to continually enhance the user experience and expand the reach and impact of this project. Here are some key milestones and improvements we have in mind:
+We have ambitious plans for the future of the NutriAPI. Our goal is to continually enhance the user experience and expand the reach and impact of this project. Here are some key milestones and improvements we have in mind:
 
 1. Frond-End Development: After the initial API launch, we plan to develop a user-friendly and visually appealing front-end interface. This will make it even easier for users to access and interact with the nutritional information.
 
