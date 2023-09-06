@@ -134,4 +134,20 @@ __'utils.py'__:
 __'carga.py'__:
    > * Added comments
 
+---
+### 5/9/2023
+
+* Modified README.md 
+
+__'README.md'__:
+   > * Added Description
+   > * Added Purpouse
+   > * Added Goals
+   > * Added Table of Contents
+   > * Added Data Source
+   > * Added License
+   > * Added Support and Contact
+   > * Added Acknowledgments
+   > * Added Roadmap
+   
 
