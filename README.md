@@ -92,4 +92,7 @@ We have ambitious plans for the future of the NutriAPI. Our goal is to continual
 
 8. Code Enhancement: We are committed to improving the codebase of the API continuously. This includes optimizing performance, ensuring code maintainability, and following best practices in software development.
 
+9. OAuth and User Login System: With our vision to build a community, we intend to add an OAuth and user login system to build a more robust and secure platform for our users. This will allow users to easily sign in using their existing social media or email accounts, and will provide an additional layer of security to protect their data and information. We believe that this feature will enhance the user experience and foster a sense of community among our users.
+
+
 Our roadmap reflects our commitment to continuously improve and expand the NutriAPI. We invite you to join us on this journey and contribute to making healthy food choices more accessible to all. If you have suggestions or would like to get involved, please don't hesitate to reach out and share your ideas. Together, we can make a positive impact on the nutritional awareness.
