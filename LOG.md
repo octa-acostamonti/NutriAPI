@@ -133,6 +133,13 @@ __'utils.py'__:
 * Removed 'Tabla_Nutricional_Productos.csv'
 __'carga.py'__:
    > * Added comments
+---
+### 1/9/2023
+
+* Created alembic folder
+* Created alembic.ini file
+
+Added database migration functionality 
 
 ---
 ### 5/9/2023
