@@ -65,3 +65,5 @@ def log_request(db: Session, id_producto:int):
     request_info = models.Requests(id_producto=id_producto)
     db.add(request_info)
     db.commit()
+
+    
