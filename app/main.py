@@ -66,4 +66,6 @@ def log_request(db: Session, id_producto:int):
     db.add(request_info)
     db.commit()
 
+
+
     
