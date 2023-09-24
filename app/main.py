@@ -1,9 +1,9 @@
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from . import models
-from .database import engine,get_db
+from .database import engine, get_db
 from sqlalchemy.orm import Session, load_only
-from .schemas import ResponseProteina,ResponseCarbohidratos,ResponseGrasa, ResponseProductos
+from .schemas import ResponseProteina, ResponseCarbohidratos, ResponseGrasa, ResponseProductos
 from typing import List
 
 # Creation of the tables and conection to PostgreSQL through the models in 'models.py'
