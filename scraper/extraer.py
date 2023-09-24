@@ -37,6 +37,7 @@ def extraer_info_nutricional(URLS: list):
             info_partes = info_texto.split("|") # split categories by '|'
 
             # We map the information into a dictionary and clean the data to get correct datatypes
+            
             producto_info = {
                 "Producto": producto.text,
                 "Marca": marca.text.replace("(", "").replace(")", "") if len(marca.text) > 0 else None,
