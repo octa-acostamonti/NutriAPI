@@ -23,6 +23,10 @@ def extraer_info_nutricional(URLS: list):
 
         tabla = pagesoup.find("td", class_="leftCell") # The content we want to find is inside a table with the tag 'td', class 'leftCell'
 
+        if tabla is None:
+            print(f"No se encontró la tabla en la página: {num_pagina}")
+            continue
+
         productos = tabla.find_all("a", class_="prominent") # The name of the products is in the tag 'a', class 'prominent'
 
         marcas = tabla.find_all("a", class_="brand") # The brand information is in the tag 'a', class 'brand'
@@ -66,8 +70,42 @@ def extraer_info_nutricional(URLS: list):
     Tabla_Nutricional_Productos = pd.DataFrame(result)
 
     # Transform columns datatypes
-    Tabla_Nutricional_Productos["Caloria(kcal)"] = Tabla_Nutricional_Productos["Caloria(kcal)"].astype("Int64")
+    Tabla_Nutricional_Productos["Caloria(kcal)"] = Tabla_Nutricional_Productos["Caloria(kcal)"].astype("Float64")
     Tabla_Nutricional_Productos[["Grasa(g)","Carbohidrato(g)","Proteina(g)"]] = Tabla_Nutricional_Productos[["Grasa(g)","Carbohidrato(g)","Proteina(g)"]].astype("Float64")
     
     # return the dataframe
     return Tabla_Nutricional_Productos
+
+
+
+def estandarizar_a_100g(df):
+    """ Standardize the nutritional information to 100g. """
+
+    df['Cantidad(g)'] = pd.to_numeric(df['Cantidad(g)'], errors='coerce')
+
+    # Create a copy of the DataFrame to avoid SettingWithCopyWarning
+    df_copia = df.copy()
+
+    # Iterate over the rows of the DataFrame
+    for index, row in df_copia.iterrows():
+        cantidad = row['Cantidad(g)']
+        if pd.notna(cantidad) and cantidad > 0:
+            factor = 100 / cantidad
+            df_copia.loc[index, 'Caloria(kcal)'] = row['Caloria(kcal)'] * factor
+            df_copia.loc[index, 'Grasa(g)'] = row['Grasa(g)'] * factor
+            df_copia.loc[index, 'Carbohidrato(g)'] = row['Carbohidrato(g)'] * factor
+            df_copia.loc[index, 'Proteina(g)'] = row['Proteina(g)'] * factor
+            df_copia.loc[index, 'Cantidad(g)'] = 100
+
+    # Rename columns to match the database schema
+    df_copia = df_copia.rename(columns={
+        "Producto": "producto",
+        "Marca": "marca",
+        "Cantidad(g)": "cantidad",
+        "Caloria(kcal)": "caloria_kcal",
+        "Grasa(g)": "grasa_g",
+        "Carbohidrato(g)": "carbohidrato_g",
+        "Proteina(g)": "proteina_g"
+    })
+
+    return df_copia
