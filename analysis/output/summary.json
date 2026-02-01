@@ -1,0 +1,11 @@
+{
+  "total_products": 6444,
+  "unique_eans": 2909,
+  "products_analyzable": 3576,
+  "retailers": {
+    "jumbo": 1885,
+    "carrefour": 1844,
+    "disco": 1819,
+    "dia": 896
+  }
+}

@@ -9,3 +9,7 @@ prox.txt
 
 page/
 scraper/stats.prof
+
+# Large data files
+data/openfoodfacts.csv.gz
+enriched_products.json

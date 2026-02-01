@@ -81,7 +81,7 @@ def buscar_productos(
 def get_proteinas(db: Session = Depends(get_db)):
     """Get protein info for all products."""
     proteina = db.query(models.Productos).options(
-        load_only(models.Productos.producto, models.Productos.marca, models.Productos.proteina_g, models.Productos.cantidad)
+        load_only(models.Productos.producto, models.Productos.marca, models.Productos.proteina_g_100g, models.Productos.serving_size)
     ).all()
     return proteina
 
@@ -90,7 +90,7 @@ def get_proteinas(db: Session = Depends(get_db)):
 def get_grasas(db: Session = Depends(get_db)):
     """Get fat info for all products."""
     grasa = db.query(models.Productos).options(
-        load_only(models.Productos.producto, models.Productos.marca, models.Productos.grasa_g, models.Productos.cantidad)
+        load_only(models.Productos.producto, models.Productos.marca, models.Productos.grasa_g_100g, models.Productos.serving_size)
     ).all()
     return grasa
 
@@ -99,7 +99,7 @@ def get_grasas(db: Session = Depends(get_db)):
 def get_carbohidratos(db: Session = Depends(get_db)):
     """Get carbohydrate info for all products."""
     carbohidratos = db.query(models.Productos).options(
-        load_only(models.Productos.producto, models.Productos.marca, models.Productos.carbohidrato_g, models.Productos.cantidad)
+        load_only(models.Productos.producto, models.Productos.marca, models.Productos.carbohidrato_g_100g, models.Productos.serving_size)
     ).all()
     return carbohidratos
 
@@ -180,10 +180,17 @@ def get_enriched_products(
             "product_url": rp.product_url,
             "nutriscore_grade": None,
             "nova_group": None,
-            "caloria_kcal": None,
-            "proteina_g": None,
-            "grasa_g": None,
-            "carbohidrato_g": None,
+            "serving_size": None,
+            "serving_quantity_g": None,
+            "product_quantity_g": None,
+            "caloria_kcal_100g": None,
+            "proteina_g_100g": None,
+            "grasa_g_100g": None,
+            "carbohidrato_g_100g": None,
+            "caloria_kcal_serving": None,
+            "proteina_g_serving": None,
+            "grasa_g_serving": None,
+            "carbohidrato_g_serving": None,
             "allergens": None,
             "ingredients_text": None,
         }
@@ -193,14 +200,21 @@ def get_enriched_products(
             if nutri:
                 result["nutriscore_grade"] = nutri.nutriscore_grade
                 result["nova_group"] = nutri.nova_group
-                result["caloria_kcal"] = safe_float(nutri.caloria_kcal)
-                result["proteina_g"] = safe_float(nutri.proteina_g)
-                result["grasa_g"] = safe_float(nutri.grasa_g)
-                result["carbohidrato_g"] = safe_float(nutri.carbohidrato_g)
+                result["serving_size"] = nutri.serving_size
+                result["serving_quantity_g"] = safe_float(nutri.serving_quantity_g)
+                result["product_quantity_g"] = safe_float(nutri.product_quantity_g)
+                result["caloria_kcal_100g"] = safe_float(nutri.caloria_kcal_100g)
+                result["proteina_g_100g"] = safe_float(nutri.proteina_g_100g)
+                result["grasa_g_100g"] = safe_float(nutri.grasa_g_100g)
+                result["carbohidrato_g_100g"] = safe_float(nutri.carbohidrato_g_100g)
+                result["caloria_kcal_serving"] = safe_float(nutri.caloria_kcal_serving)
+                result["proteina_g_serving"] = safe_float(nutri.proteina_g_serving)
+                result["grasa_g_serving"] = safe_float(nutri.grasa_g_serving)
+                result["carbohidrato_g_serving"] = safe_float(nutri.carbohidrato_g_serving)
                 result["allergens"] = nutri.allergens
                 result["ingredients_text"] = nutri.ingredients_text
         
-        enriched.append(result)
+                enriched.append(result)
     
     return enriched
 
@@ -227,10 +241,17 @@ def get_enriched_product_by_ean(ean: str, db: Session = Depends(get_db)):
         "product_url": rp.product_url,
         "nutriscore_grade": None,
         "nova_group": None,
-        "caloria_kcal": None,
-        "proteina_g": None,
-        "grasa_g": None,
-        "carbohidrato_g": None,
+        "serving_size": None,
+        "serving_quantity_g": None,
+        "product_quantity_g": None,
+        "caloria_kcal_100g": None,
+        "proteina_g_100g": None,
+        "grasa_g_100g": None,
+        "carbohidrato_g_100g": None,
+        "caloria_kcal_serving": None,
+        "proteina_g_serving": None,
+        "grasa_g_serving": None,
+        "carbohidrato_g_serving": None,
         "allergens": None,
         "ingredients_text": None,
     }
@@ -239,10 +260,17 @@ def get_enriched_product_by_ean(ean: str, db: Session = Depends(get_db)):
     if nutri:
         result["nutriscore_grade"] = nutri.nutriscore_grade
         result["nova_group"] = nutri.nova_group
-        result["caloria_kcal"] = safe_float(nutri.caloria_kcal)
-        result["proteina_g"] = safe_float(nutri.proteina_g)
-        result["grasa_g"] = safe_float(nutri.grasa_g)
-        result["carbohidrato_g"] = safe_float(nutri.carbohidrato_g)
+        result["serving_size"] = nutri.serving_size
+        result["serving_quantity_g"] = safe_float(nutri.serving_quantity_g)
+        result["product_quantity_g"] = safe_float(nutri.product_quantity_g)
+        result["caloria_kcal_100g"] = safe_float(nutri.caloria_kcal_100g)
+        result["proteina_g_100g"] = safe_float(nutri.proteina_g_100g)
+        result["grasa_g_100g"] = safe_float(nutri.grasa_g_100g)
+        result["carbohidrato_g_100g"] = safe_float(nutri.carbohidrato_g_100g)
+        result["caloria_kcal_serving"] = safe_float(nutri.caloria_kcal_serving)
+        result["proteina_g_serving"] = safe_float(nutri.proteina_g_serving)
+        result["grasa_g_serving"] = safe_float(nutri.grasa_g_serving)
+        result["carbohidrato_g_serving"] = safe_float(nutri.carbohidrato_g_serving)
         result["allergens"] = nutri.allergens
         result["ingredients_text"] = nutri.ingredients_text
     

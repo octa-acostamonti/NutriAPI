@@ -5,31 +5,37 @@ from typing import Optional
 class Response(BaseModel):
     producto: str
     marca: Optional[str] = None
-    cantidad: Optional[str] = None
+    serving_size: Optional[str] = None
 
     class Config:
         from_attributes = True
 
 
 class ResponseProteina(Response):
-    proteina_g: Optional[float] = None
+    proteina_g_100g: Optional[float] = None
 
 
 class ResponseGrasa(Response):
-    grasa_g: Optional[float] = None
+    grasa_g_100g: Optional[float] = None
 
 
 class ResponseCarbohidratos(Response):
-    carbohidrato_g: Optional[float] = None
+    carbohidrato_g_100g: Optional[float] = None
 
 
 class ResponseProductos(Response):
     id_producto: int
     barcode: Optional[str] = None
-    caloria_kcal: Optional[float] = None
-    proteina_g: Optional[float] = None
-    grasa_g: Optional[float] = None
-    carbohidrato_g: Optional[float] = None
+    serving_quantity_g: Optional[float] = None
+    product_quantity_g: Optional[float] = None
+    caloria_kcal_100g: Optional[float] = None
+    proteina_g_100g: Optional[float] = None
+    grasa_g_100g: Optional[float] = None
+    carbohidrato_g_100g: Optional[float] = None
+    caloria_kcal_serving: Optional[float] = None
+    proteina_g_serving: Optional[float] = None
+    grasa_g_serving: Optional[float] = None
+    carbohidrato_g_serving: Optional[float] = None
     nutriscore_grade: Optional[str] = None
     nova_group: Optional[int] = None
     ingredients_text: Optional[str] = None
@@ -57,9 +63,16 @@ class ResponseRetailerProduct(BaseModel):
 class ResponseEnrichedProduct(ResponseRetailerProduct):
     nutriscore_grade: Optional[str] = None
     nova_group: Optional[int] = None
-    caloria_kcal: Optional[float] = None
-    proteina_g: Optional[float] = None
-    grasa_g: Optional[float] = None
-    carbohidrato_g: Optional[float] = None
+    serving_size: Optional[str] = None
+    serving_quantity_g: Optional[float] = None
+    product_quantity_g: Optional[float] = None
+    caloria_kcal_100g: Optional[float] = None
+    proteina_g_100g: Optional[float] = None
+    grasa_g_100g: Optional[float] = None
+    carbohidrato_g_100g: Optional[float] = None
+    caloria_kcal_serving: Optional[float] = None
+    proteina_g_serving: Optional[float] = None
+    grasa_g_serving: Optional[float] = None
+    carbohidrato_g_serving: Optional[float] = None
     allergens: Optional[str] = None
     ingredients_text: Optional[str] = None
