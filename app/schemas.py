@@ -1,33 +1,65 @@
 from pydantic import BaseModel
+from typing import Optional
 
 
 class Response(BaseModel):
-    """ Configuracion de la respuesta base """
     producto: str
-    marca: str
-    cantidad: str
+    marca: Optional[str] = None
+    cantidad: Optional[str] = None
+
     class Config:
         from_attributes = True
 
 
 class ResponseProteina(Response):
-    """ Configuracion de la respuesta de proteinas con herencia de la respuesta base """
-    proteina_g: float
+    proteina_g: Optional[float] = None
+
 
 class ResponseGrasa(Response):
-    """ Configuracion de la respuesta de grasas con herencia de la respuesta base """
-    grasa_g: float
+    grasa_g: Optional[float] = None
+
 
 class ResponseCarbohidratos(Response):
-    """ Configuracion de la respuesta de carbohidratos con herencia de la respuesta base """
-    carbohidrato_g: float
+    carbohidrato_g: Optional[float] = None
+
 
 class ResponseProductos(Response):
-    """ Configuracion de la respuesta de los productos con herencia de la respuesta base """
-    id_producto:int
-    caloria_kcal:int
-    proteina_g: float
-    grasa_g: float
-    carbohidrato_g:float
+    id_producto: int
+    barcode: Optional[str] = None
+    caloria_kcal: Optional[float] = None
+    proteina_g: Optional[float] = None
+    grasa_g: Optional[float] = None
+    carbohidrato_g: Optional[float] = None
+    nutriscore_grade: Optional[str] = None
+    nova_group: Optional[int] = None
+    ingredients_text: Optional[str] = None
+    allergens: Optional[str] = None
+    image_url: Optional[str] = None
 
 
+class ResponseRetailerProduct(BaseModel):
+    id: int
+    retailer: str
+    ean: Optional[str] = None
+    sku: Optional[str] = None
+    product_name: str
+    brand: Optional[str] = None
+    price: Optional[float] = None
+    list_price: Optional[float] = None
+    category: Optional[str] = None
+    image_url: Optional[str] = None
+    product_url: Optional[str] = None
+
+    class Config:
+        from_attributes = True
+
+
+class ResponseEnrichedProduct(ResponseRetailerProduct):
+    nutriscore_grade: Optional[str] = None
+    nova_group: Optional[int] = None
+    caloria_kcal: Optional[float] = None
+    proteina_g: Optional[float] = None
+    grasa_g: Optional[float] = None
+    carbohidrato_g: Optional[float] = None
+    allergens: Optional[str] = None
+    ingredients_text: Optional[str] = None
