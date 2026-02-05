@@ -6,6 +6,7 @@ def run_all():
     from scraper.jumbo import extraer_productos_jumbo, cargar_productos_jumbo
     from scraper.carrefour import extraer_productos_carrefour, cargar_productos_carrefour
     from scraper.dia import extraer_productos_dia, cargar_productos_dia
+    from scraper.coto import extraer_productos_coto, cargar_productos_coto
     
     results = {}
     
@@ -35,6 +36,15 @@ def run_all():
         inserted, updated = cargar_productos_dia(df_dia)
         results["dia"] = {"extracted": len(df_dia), "inserted": inserted, "updated": updated}
         print(f"Dia: {len(df_dia)} extraídos, {inserted} insertados, {updated} actualizados")
+    
+    print("\n" + "=" * 60)
+    print("COTO")
+    print("=" * 60)
+    df_coto = extraer_productos_coto()
+    if not df_coto.empty:
+        inserted, updated = cargar_productos_coto(df_coto)
+        results["coto"] = {"extracted": len(df_coto), "inserted": inserted, "updated": updated}
+        print(f"Coto: {len(df_coto)} extraídos, {inserted} insertados, {updated} actualizados")
     
     print("\n" + "=" * 60)
     print("RESUMEN FINAL")
